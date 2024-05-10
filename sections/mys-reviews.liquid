@@ -1,0 +1,476 @@
+{% if shop.metafields.revie.reviewShopProductList %}
+  <div class="section-{{ section.id }}-padding sectionRevieMYS">
+    <div class="scrollyMYS">
+      <h2 class="topT">{{ section.settings.title }}</h2>
+      <button id="leftRevieMYS">&#10094;</button>
+      <button id="rightRevieMYS">&#10095;</button>
+      <ul id="revieListCarouselMYS" class="carouselPreMYYS">
+        {% assign count = 0 %}
+        {% for element in shop.metafields.revie.reviewShopProductList %}
+          {% assign image = '' %}
+          {% if section.settings.image == '1' or section.settings.image == '3' %}
+            {% for item in element.product.images limit: 1 %}
+              {% assign image = item.src %}
+            {% endfor %}
+          {% endif %}
+          {% if section.settings.image == '2' or section.settings.image == '3' %}
+            {% for item in element.images limit: 1 %}
+              {% assign image = item.src %}
+            {% endfor %}
+          {% endif %}
+          {% if count < section.settings.max_reviews
+            and element.comment
+            and element.comment != ''
+            and image != ''
+            and element.comment.size > 20
+          %}
+            {% assign count = count | plus: 1 %}
+            <li
+              class="itemsCMys bgImg"
+              style="background-image: linear-gradient(to right, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)),url('{{ image }}');"
+            >
+              <div class="text-mys">
+                <div class="quot">“</div>
+                <div class="txtStar">
+                  <div class="leftTxtDetMys">
+                    <div id="revieStarMys">
+                      <i data-star="{{ element.stars }}"></i>
+                    </div>
+                  </div>
+                  {{ element.customer.firstName }}
+                </div>
+                <p>{{ element.comment }}</p>
+                <a href="#" onclick="clickreviewMys('{{ element.product.handle }}')">Ver producto</a>
+              </div>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <script>
+     var outtesterMSL = document.getElementsByClassName('scrollyMYS');
+     for (var i = 0; i < outtesterMSL.length; i++) {
+    scrollificationMys('scrollyMYS', setyup = {
+      i: i,
+      scrollCont: '.carouselPreMYYS',
+      itemsScroll: '.itemsCMys',
+      customButtons: true,
+      butLeft: '#leftRevieMYS',
+      butRight: '#rightRevieMYS'
+    })
+     }
+     function scrollificationMys(mainConter, setyup = { i, scrollcont, itemsScroll, customButtons, butLeft, butRight }) {
+    if (setyup.i == null) {
+      out = document.getElementsByClassName(mainConter)[0];
+    } else {
+      out = document.getElementsByClassName(mainConter)[setyup.i];
+    }
+
+    if (setyup.customButtons == true) {
+      l = out.querySelector(setyup.butLeft);
+      r = out.querySelector(setyup.butRight);
+    }
+      	var out,
+      a = out.querySelector(setyup.scrollCont), l, r,
+      q = out.querySelectorAll(setyup.itemsScroll);
+        	l.addEventListener("click", getBackRevieMys);
+    r.addEventListener("click", getNextRevieMys);
+    function getNextRevieMys() {
+      for (var i = 0; i < q.length; i++) {
+    	if (q[i].getBoundingClientRect().left <= a.getBoundingClientRect().left + 50) {
+    	  var index = q[i].offsetWidth;
+    	  a.scrollLeft += index;}}}
+    function getBackRevieMys() {
+      for (var i = 1; i < q.length; i++) {
+    	if (q[i].getBoundingClientRect().left < a.getBoundingClientRect().left + 50) {
+    	  var index = q[i - 1].offsetWidth;
+    	  a.scrollLeft -= index;}}}
+
+     }
+     function clickreviewMys(link) {
+    if (link != null && link != '' && link != 'null') {
+      window.location = '/products/' + link + '?utm_source=revie&utm_medium=revie_carousel&utm_campaign=revie';
+    }
+     }
+  </script>
+
+  <style>
+        :root {
+      	--grid-column-gap: 20px;
+        }
+        .sectionRevieMYS{max-width: {{ section.settings.max_width }}px;padding: {{ section.settings.content_padding }}px;margin: 0 auto;}
+        .txtStar{
+      	display: flex;
+      	justify-content: flex-start;
+      	align-items: center;
+      	gap: 10px;
+        }
+
+        #revieListCarouselMYS .quot{
+      	font-size: {{section.settings.size_text | plus: 20}}px;
+      	line-height: {{section.settings.size_text | plus: 20}}px;
+             font-family: "Times New Roman"!important;
+             margin-bottom: 10px;
+        }
+        #revieListCarouselMYS li p{
+      	font-weight: 100;
+      	font-size: {{section.settings.size_text}}px;
+      	line-height: {{section.settings.size_text | plus: 6}}px;
+             margin: 2rem 0px;
+        }
+
+        #revieListCarouselMYS li.bgImg{
+      	background-repeat: no-repeat;
+      	background-position: center;
+      	background-size: cover;
+        }
+
+        .links {
+      	cursor: pointer
+        }
+
+        .carouselPreMYYS li.links:hover {
+      	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        }
+
+        .carouselPreMYYS {
+      	grid-auto-flow: column;
+      	display: grid;
+      	grid-auto-columns: calc((100% - 3 * var(--grid-column-gap))/ 4);
+      	grid-column-gap: var(--grid-column-gap);
+      	scroll-snap-type: x mandatory;
+      	overflow-x: scroll;
+      	overflow-y: hidden;
+      	list-style: none;
+      	scroll-behavior: smooth;
+        }
+
+        #title {
+      	margin: 10px 10px 10px 0;
+      	font-size: 34px;
+      	font-weight: 600;
+        }
+
+        .topT {
+      	border-top: 1px solid rgb(212, 212, 212);
+      	padding: 10px 0;
+      	font-weight: 600;
+      	font-size: 20px;
+        }
+
+        .leftTxtDetMys {
+      	font-size: {{section.settings.size}}px;
+        }
+
+        .itemsCMys {
+      	position: relative;
+      	padding: 20px;
+        }
+
+        .scrollyMYS {
+      	overflow: hidden;
+        }
+
+        .carouselPreMYYS li {
+      	scroll-snap-align: start;
+      	width: 100%;
+      	height: 100%;
+      	list-style: none;
+      	border-radius: 6px;
+      	overflow: hidden;
+      	border: 1px solid {{section.settings.back_color}};
+      	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        }
+
+        .carouselPreMYYS li .text-mys {
+      	width: 100%;
+      	height: 100%;
+      	color: {{section.settings.text_color}};
+      	display: flex;
+      	flex-direction: column;
+      	justify-content: space-between;
+          z-index: 1;
+          position: relative;
+
+        }
+        .carouselPreMYYS li .text-mys a{
+      	flex: 2;
+      	display: flex;
+      	flex-direction: column;
+      	justify-content: flex-end;
+      	color: {{section.settings.text_color}};
+        }
+        .carouselPreMYYS li .text-mys a:visited{
+      	color: {{section.settings.text_color}};
+        }
+
+        .carouselPreMYYS li img {
+      	width: 100%;
+      	height: 100%;
+      	object-fit: cover
+        }
+
+        .carouselPreMYYS li img {
+      	width: 30%;
+      	height: auto;
+      	border-radius: 2px;
+      	margin: 5px;
+        }
+
+        .scrollyMYS {
+      	position: relative
+        }
+
+        #leftRevieMYS,
+        #rightRevieMYS {
+      	background-color: rgba(255, 255, 255, .9);
+      	outline: none;
+      	border: transparent;
+      	border-radius: 100%;
+      	display: flex;
+      	align-items: center;
+      	justify-content: center;
+      	width: 2rem;
+      	height: 2rem;
+      	position: absolute;
+      	top: 8%;
+      	transform: translate(0, -60%);
+      	cursor: pointer;
+      	z-index: 2;
+      	box-shadow: none;
+      	opacity: 1;
+              background: hsla(0deg, 0%, 100%, 0.75);
+      border: none;
+      color: var(--text);
+        }
+
+        #leftRevieMYS:hover,
+        #rightRevieMYS:hover {
+      	opacity: 1;
+        }
+
+        #leftRevieMYS {
+      	left: 0px;
+        }
+
+        #rightRevieMYS {
+      	right: 0px;
+        }
+          @media only screen and (max-width:1550px) {
+      	.carouselPreMYYS {
+      	  grid-auto-columns: calc((100% - 2 * var(--grid-column-gap))/ 4);
+      	  height: 21rem;
+            padding-bottom: 11px;
+    margin: 0 auto;
+      	}
+        }
+
+
+        @media only screen and (max-width:1050px) {
+      	.carouselPreMYYS {
+      	  grid-auto-columns: calc((100% - 2 * var(--grid-column-gap))/ 2);
+      	  height: 21rem;
+            padding-bottom: 11px;
+
+      	}
+        }
+
+
+        @media only screen and (max-width:750px) {
+      	.carouselPreMYYS {
+      	  grid-auto-columns: calc(100% + 40px);
+      	  height: 21rem;
+            padding-bottom: 11px;
+      	}
+        :root {
+      	--grid-column-gap: 0px;
+        }
+        }
+
+        ::-webkit-scrollbar {
+      	width: 15px;
+      	height: 15px;
+      	border-left: #ededed solid 1px;
+      	background-color: #fcfcfc;
+      	border-top: #ededed solid 1px
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+      	cursor: pointer;
+      	background: #c7c7c7;
+      	width: 15px;
+      	background-clip: content-box;
+      	border: 4px solid transparent;
+      	border-radius: 10px
+        }
+
+        ::-webkit-scrollbar-button {
+      	display: none
+        }
+
+        ::-webkit-scrollbar-thumb {
+      	background: #dbdbdb;
+      	background-clip: content-box;
+      	border: 4px solid transparent;
+      	border-radius: 10px
+        }
+
+        [data-star] {
+      	text-align: left;
+      	font-style: normal;
+      	display: inline-block;
+      	position: relative;
+      	unicode-bidi: bidi-override;
+        }
+
+        [data-star]::before {
+      	display: block;
+      	content: '☆☆☆☆☆';
+      	color: {{section.settings.star_color}};
+        }
+
+        [data-star]::after {
+      	white-space: nowrap;
+      	position: absolute;
+      	top: 0;
+      	left: 0;
+      	content: '★★★★★';
+      	width: 0;
+      	color: {{section.settings.star_color}};
+      	overflow:hidden;
+      	height:100%;
+        }
+
+        #revieStarMys span {
+      	padding-left: 10px;
+      	line-height: 48px;
+        }
+      #revieStarMys [data-star^=".1"]::after,#revieStarMys [data-star^="0.1"]::after{width:2%}#revieStarMys [data-star^=".2"]::after,#revieStarMys [data-star^="0.2"]::after{width:4%}#revieStarMys [data-star^=".3"]::after,#revieStarMys [data-star^="0.3"]::after{width:6%}#revieStarMys [data-star^=".4"]::after,#revieStarMys [data-star^="0.4"]::after{width:8%}#revieStarMys [data-star^=".5"]::after,#revieStarMys [data-star^="0.5"]::after{width:10%}#revieStarMys [data-star^=".6"]::after,#revieStarMys [data-star^="0.6"]::after{width:12%}#revieStarMys [data-star^=".7"]::after,#revieStarMys [data-star^="0.7"]::after{width:14%}#revieStarMys [data-star^=".8"]::after,#revieStarMys [data-star^="0.8"]::after{width:16%}#revieStarMys [data-star^=".9"]::after,#revieStarMys [data-star^="0.9"]::after{width:18%}#revieStarMys [data-star^="1"]::after{width:20%}#revieStarMys [data-star^="1.1"]::after{width:22%}#revieStarMys [data-star^="1.2"]::after{width:24%}#revieStarMys [data-star^="1.3"]::after{width:26%}#revieStarMys [data-star^="1.4"]::after{width:28%}#revieStarMys [data-star^="1.5"]::after{width:30%}#revieStarMys [data-star^="1.6"]::after{width:32%}#revieStarMys [data-star^="1.7"]::after{width:34%}#revieStarMys [data-star^="1.8"]::after{width:36%}#revieStarMys [data-star^="1.9"]::after{width:38%}#revieStarMys [data-star^="2"]::after{width:40%}#revieStarMys [data-star^="2.1"]::after{width:42%}#revieStarMys [data-star^="2.2"]::after{width:44%}#revieStarMys [data-star^="2.3"]::after{width:46%}#revieStarMys [data-star^="2.4"]::after{width:48%}#revieStarMys [data-star^="2.5"]::after{width:50%}#revieStarMys [data-star^="2.6"]::after{width:52%}#revieStarMys [data-star^="2.7"]::after{width:54%}#revieStarMys [data-star^="2.8"]::after{width:56%}#revieStarMys [data-star^="2.9"]::after{width:58%}#revieStarMys [data-star^="3"]::after{width:60%}#revieStarMys [data-star^="3.1"]::after{width:62%}#revieStarMys [data-star^="3.2"]::after{width:64%}#revieStarMys [data-star^="3.3"]::after{width:66%}#revieStarMys [data-star^="3.4"]::after{width:68%}#revieStarMys [data-star^="3.5"]::after{width:70%}#revieStarMys [data-star^="3.6"]::after{width:72%}#revieStarMys [data-star^="3.7"]::after{width:74%}#revieStarMys [data-star^="3.8"]::after{width:76%}#revieStarMys [data-star^="3.9"]::after{width:78%}#revieStarMys [data-star^="4"]::after{width:80%}#revieStarMys [data-star^="4.1"]::after{width:82%}#revieStarMys [data-star^="4.2"]::after{width:84%}#revieStarMys [data-star^="4.3"]::after{width:86%}#revieStarMys [data-star^="4.4"]::after{width:88%}#revieStarMys [data-star^="4.5"]::after{width:90%}#revieStarMys [data-star^="4.6"]::after{width:92%}#revieStarMys [data-star^="4.7"]::after{width:94%}#revieStarMys [data-star^="4.8"]::after{width:96%}#revieStarMys [data-star^="4.9"]::after{width:98%}#revieStarMys [data-star^="5"]::after{width:100%}
+  </style>
+{% endif %}
+{% schema %}
+{
+  "name": "Carousel MYS",
+  "presets": [{
+	"name": "Carousel MYS",
+	"category": "Store information"
+  }],
+  "settings": [
+	{
+	  "type": "text",
+	  "id": "title",
+	  "label":  "Title",
+	  "default": "Reviews"
+	},
+	{
+	  "type": "header",
+	  "content": "Star"
+	},
+	{
+	  "type": "color",
+	  "id": "star_color",
+	  "label": "Star color",
+	  "default": "#000000"
+	},
+	{
+	  "type": "range",
+	  "id": "size",
+	  "min": 12,
+	  "max": 35,
+	  "step": 1,
+	  "unit": "px",
+	  "label": "Stars size",
+	  "default": 15
+	},
+	{
+	  "type": "header",
+	  "content": "Texto"
+	},
+	{
+	  "type": "color",
+	  "id": "back_color",
+	  "label": "Background color",
+	  "default": "#FFFFFF"
+	},
+	{
+	  "type": "color",
+	  "id": "text_color",
+	  "label": "Text color",
+	  "default": "#ffffff"
+	},
+	{
+	  "type": "range",
+	  "id": "size_text",
+	  "min": 10,
+	  "max": 25,
+	  "step": 1,
+	  "unit": "px",
+	  "label": "Text size",
+	  "default": 18
+	},
+	{
+	  "type": "header",
+	  "content": "Reviews"
+	},
+	{
+	  "type": "range",
+	  "id": "max_reviews",
+	  "min": 5,
+	  "max": 20,
+	  "step": 1,
+	  "label": "Max reviews",
+	  "default": 10
+	},
+	{
+	  "type": "select",
+	  "id": "image",
+	  "label": "Photos",
+	  "default": "1",
+	  "options": [
+		{
+		"value": "1",
+		"label": {
+		  "en": "Product",
+		  "es": "Producto"
+		}
+		},
+		{
+		"value": "2",
+		"label": {
+		  "en": "Reviews",
+		  "es": "Reviews"
+		}
+		},
+		{
+		"value": "3",
+		"label": {
+		  "en": "Product & Reviews",
+		  "es": "Productos & Reviews"
+		}
+		}
+	  ]
+	},
+	{
+		"type": "range",
+		"id": "content_padding",
+		"min": 0,
+		"max": 80,
+		"step": 1,
+		"unit": "px",
+		"label": "Content padding",
+		"default": 22
+	},{
+		"type": "range",
+		"id": "max_width",
+		"min": 780,
+		"max": 2160,
+		"step": 60,
+		"unit": "px",
+		"label": "Max width",
+		"default": 900
+	}
+
+  ]
+}
+{% endschema %}

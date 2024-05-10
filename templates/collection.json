@@ -1,0 +1,219 @@
+{
+  "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {
+      }
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "settings": {
+      }
+    },
+    "hero": {
+      "type": "collection-hero",
+      "custom_css": [
+        "h1 {letter-spacing: 3px !important; font-weight: 100 !important; text-transform: uppercase !important; font-size: 2.3em;}"
+      ],
+      "settings": {
+        "text_align": "align--middle-center",
+        "show_title": false,
+        "show_title_below": false,
+        "show_description": true,
+        "show_description_below": true,
+        "color_bg": "palette--light bg--neutral",
+        "show_image": true,
+        "bg_position": "center-center",
+        "image_height": "use_screen_one_third",
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "text_color": "text--white",
+        "width": "wrapper--none",
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "width_text": "wrapper",
+        "padding_top_text": 36,
+        "padding_bottom_text": 0
+      }
+    },
+    "ace8606a-fc54-42fd-acea-b83d8a2bbec3": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--15888696836153__ace8606a-fc54-42fd-acea-b83d8a2bbec3-1689027530633c3efd-0": {
+          "type": "kicker",
+          "disabled": true,
+          "settings": {
+            "kicker": "Introducing",
+            "enable_line": true,
+            "text_size": 4
+          }
+        },
+        "template--15888696836153__ace8606a-fc54-42fd-acea-b83d8a2bbec3-1689027530633c3efd-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Main Ingredients",
+            "text_size": 8
+          }
+        },
+        "template--15888696836153__ace8606a-fc54-42fd-acea-b83d8a2bbec3-1689027530633c3efd-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        },
+        "dcd72571-b3a1-46de-9459-09f42f67bffd": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "kicker_size": 3,
+            "items_per_row": "6",
+            "icon_color": "#4b4b4b",
+            "icon_size": 24,
+            "icon_name_1": "icon-animal",
+            "icon_kicker_1": "Vegan",
+            "icon_name_2": "icon-animal-paw",
+            "icon_kicker_2": "Gentle",
+            "icon_name_3": "icon-gluten-free",
+            "icon_kicker_3": "Gluten Free",
+            "icon_name_4": "icon-leaf",
+            "icon_kicker_4": "Carbon neutral",
+            "icon_name_5": "icon-earth",
+            "icon_kicker_5": "Organic",
+            "icon_name_6": "icon-water",
+            "icon_kicker_6": "Reef friendly"
+          }
+        }
+      },
+      "block_order": [
+        "template--15888696836153__ace8606a-fc54-42fd-acea-b83d8a2bbec3-1689027530633c3efd-0",
+        "template--15888696836153__ace8606a-fc54-42fd-acea-b83d8a2bbec3-1689027530633c3efd-1",
+        "template--15888696836153__ace8606a-fc54-42fd-acea-b83d8a2bbec3-1689027530633c3efd-2",
+        "dcd72571-b3a1-46de-9459-09f42f67bffd"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".standard__kicker.accent-size-6.aos-init.aos-animate {font-family: var(--FONT-STACK-ACCENT); font-weight: ligh; color: gray !important;}",
+        ".standard__heading,p:nth-child(1n) {font-family: var(--FONT-STACK-ACCENT) !important; color: #9caf89 !important;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "subcollections": {
+      "type": "collection-sub",
+      "settings": {
+        "subcollections": [
+
+        ],
+        "limit": 6,
+        "color_bg": "palette--light bg--neutral",
+        "text_color": "text--white",
+        "text_align": "align--middle-center",
+        "select_image": "collection",
+        "bg_position": "center-center",
+        "wh_ratio": 1.7,
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "grid_mobile": 1.2,
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "filters": {
+          "type": "filters",
+          "settings": {
+          }
+        },
+        "collections": {
+          "type": "collections",
+          "settings": {
+            "title": "Categorías"
+          }
+        }
+      },
+      "block_order": [
+        "filters",
+        "collections"
+      ],
+      "settings": {
+        "product_limit": 36,
+        "grid_large": 3,
+        "grid_mobile": "1",
+        "enable_layout_toggle": true,
+        "color_bg": "palette--light bg--neutral",
+        "collection_sorting": true,
+        "hide_sidebar": false,
+        "collapse_filters": true,
+        "show_products_count": true,
+        "width": "wrapper--full",
+        "padding_top": 20,
+        "padding_bottom": 64
+      }
+    },
+    "d269b82f-3eaa-43d9-995c-70f587582bce": {
+      "type": "instafeed",
+      "disabled": true,
+      "custom_css": [
+        "h2 {font-size: 3em !important;}"
+      ],
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    },
+    "81ba0104-3189-493b-b3e5-a682bd5e8a20": {
+      "type": "section-newsletter",
+      "disabled": true,
+      "custom_css": [
+        "h2 {font-size: 2em; font-weight: 200; letter-spacing: 3px;}",
+        "h2.kicker-flourished.mb-7.NEWSLETTER {text-align: left;}"
+      ],
+      "settings": {
+        "title": "NEWSLETTER",
+        "richtext": "<p><strong>Sign up for decoration and wellness tips, news and exclusive offers.<\/strong><\/p><p>Mys the Nordic experience of well-being<\/p>",
+        "bg": "palette--light bg--accent",
+        "width": "wrapper",
+        "padding_top": 90,
+        "padding_bottom": 114
+      }
+    },
+    "shogun-below": {
+      "type": "shogun-below",
+      "settings": {
+      }
+    },
+    "shogun-optimizer": {
+      "type": "shogun-optimizer",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "shogun-helper",
+    "shogun-above",
+    "hero",
+    "ace8606a-fc54-42fd-acea-b83d8a2bbec3",
+    "subcollections",
+    "main",
+    "d269b82f-3eaa-43d9-995c-70f587582bce",
+    "81ba0104-3189-493b-b3e5-a682bd5e8a20",
+    "shogun-below",
+    "shogun-optimizer"
+  ]
+}

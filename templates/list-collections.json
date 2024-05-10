@@ -1,0 +1,188 @@
+{
+  "sections": {
+    "0827d636-1238-43f5-bd6e-0bddb21c99df": {
+      "type": "section-hero",
+      "blocks": {
+        "template--15895681237049__0827d636-1238-43f5-bd6e-0bddb21c99df-kicker-1": {
+          "type": "kicker",
+          "disabled": true,
+          "settings": {
+            "kicker": "INTRODUCING",
+            "enable_line": false,
+            "text_size": 4
+          }
+        },
+        "template--15895681237049__0827d636-1238-43f5-bd6e-0bddb21c99df-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "OUR COLLECTIONS",
+            "text_size": 9
+          }
+        }
+      },
+      "block_order": [
+        "template--15895681237049__0827d636-1238-43f5-bd6e-0bddb21c99df-kicker-1",
+        "template--15895681237049__0827d636-1238-43f5-bd6e-0bddb21c99df-heading-1"
+      ],
+      "custom_css": [
+        "p {font-family: var(--TYPE-STACK-NAV) !important; font-style: var(--TYPE-STYLE-NAV) !important; text-transform: var(--FONT-NAV-TRANSFORM) !important; letter-spacing: var(--FONT-NAV-LETTER-SPACING) !important; font-weight: 100;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/contact.png",
+        "height": "use_screen_one_third",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "section-list-collections",
+      "blocks": {
+        "list-collection-block-0": {
+          "type": "all_collections",
+          "settings": {
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "text_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "list-collection-block-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "enable_carousel": false,
+        "progress_bar": "mobile",
+        "wh_ratio": 1.5,
+        "grid_large": 2,
+        "grid_medium": 2,
+        "grid_mobile": 1.2,
+        "font_family": "body",
+        "title_size": 8,
+        "accent_size": 3,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 108
+      }
+    },
+    "secondary": {
+      "type": "section-list-collections-products",
+      "blocks": {
+        "list-collections-products-block-0": {
+          "type": "all_collections",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "link_text": "View all",
+            "enable_item": true,
+            "item_link_text": "Shop all [name]",
+            "background_color": "#fcfaf7",
+            "text_color": "text--neutral",
+            "link_size": 3
+          }
+        },
+        "8e790470-ac60-4af7-a264-bb9fd8ed7fa8": {
+          "type": "collection",
+          "settings": {
+            "collection": "mys",
+            "title": "",
+            "link_text": "",
+            "enable_item": true,
+            "text": "",
+            "background_color": "rgba(0,0,0,0)",
+            "text_color": "text--neutral",
+            "link_size": 3
+          }
+        },
+        "c83158c1-ba7e-4f4b-8497-9672fa998fe0": {
+          "type": "collection",
+          "settings": {
+            "collection": "candles",
+            "title": "",
+            "link_text": "",
+            "enable_item": true,
+            "text": "",
+            "background_color": "rgba(0,0,0,0)",
+            "text_color": "text--neutral",
+            "link_size": 3
+          }
+        },
+        "2827605e-9797-44cd-9e23-53b63162337e": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "electric-diffuser",
+            "title": "",
+            "link_text": "",
+            "enable_item": true,
+            "text": "",
+            "background_color": "rgba(0,0,0,0)",
+            "text_color": "text--neutral",
+            "link_size": 3
+          }
+        },
+        "2334626c-768a-4007-a21d-de680205741d": {
+          "type": "collection",
+          "settings": {
+            "collection": "dry-body-oil",
+            "title": "",
+            "link_text": "",
+            "enable_item": true,
+            "text": "",
+            "background_color": "rgba(0,0,0,0)",
+            "text_color": "text--neutral",
+            "link_size": 3
+          }
+        },
+        "d334ce83-f1bb-44f4-8b11-e4458dbb3dec": {
+          "type": "collection",
+          "settings": {
+            "collection": "essential-oil",
+            "title": "",
+            "link_text": "",
+            "enable_item": true,
+            "text": "",
+            "background_color": "rgba(0,0,0,0)",
+            "text_color": "text--neutral",
+            "link_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "list-collections-products-block-0",
+        "8e790470-ac60-4af7-a264-bb9fd8ed7fa8",
+        "c83158c1-ba7e-4f4b-8497-9672fa998fe0",
+        "2827605e-9797-44cd-9e23-53b63162337e",
+        "2334626c-768a-4007-a21d-de680205741d",
+        "d334ce83-f1bb-44f4-8b11-e4458dbb3dec"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "grid": 5,
+        "rows": 1,
+        "enable_scroll_mobile": true,
+        "grid_small": 1.2,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 108
+      }
+    }
+  },
+  "order": [
+    "0827d636-1238-43f5-bd6e-0bddb21c99df",
+    "main",
+    "secondary"
+  ]
+}

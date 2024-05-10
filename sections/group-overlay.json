@@ -1,0 +1,63 @@
+{
+  "type": "aside",
+  "name": "Overlay",
+  "sections": {
+    "popups": {
+      "type": "popups",
+      "blocks": {
+        "cookies": {
+          "type": "cookie",
+          "disabled": true,
+          "settings": {
+            "show_cookies_popup": true,
+            "text_title": "Are Cookies OK?",
+            "text_body": "<p>We use cookies to improve your browsing experience<\/p>",
+            "text_accept": "Accept",
+            "text_learn": "Learn more",
+            "learn_url": "shopify:\/\/policies\/privacy-policy",
+            "text_color": "text--neutral",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "bg": "palette--light bg--neutral",
+            "position": "popup--bottom"
+          }
+        },
+        "newsletter_signup": {
+          "type": "newsletter",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mys_Pop-up_IMG_2.jpg",
+            "title": "Disfruta un 10% OFF",
+            "text": "<p>En tu primera compra al suscribirte<\/p>",
+            "success": "Listo! Usa el código WELCOMEMYS10 para obtener tu 10%",
+            "text_color": "text--neutral",
+            "bg": "palette--light bg--neutral",
+            "position": "popup--center",
+            "trigger": "always",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "cookies",
+        "newsletter_signup"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "p.popup__title {letter-spacing: 3px !important;}",
+        ".popup.popup--center .popup__inner > *:first-child {padding-left: 0 !important;}",
+        ".popup .popup__inner > *:first-child {padding-right: 0 !important;}"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "popups"
+  ]
+}

@@ -1,0 +1,606 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "7df4c2c3-9898-4592-a307-a9016a327a87": {
+      "type": "section-video",
+      "blocks": {
+        "8b4efee7-287c-46ca-9e2b-7441b7eea1a7": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "HOMEGOODS & WELLNESS",
+            "enable_line": false,
+            "text_size": 4
+          }
+        },
+        "b56a92c6-2db8-4f79-9a2f-ffffbc25e019": {
+          "type": "heading",
+          "settings": {
+            "title": "Shine in Nature",
+            "text_size": 9
+          }
+        }
+      },
+      "block_order": [
+        "8b4efee7-287c-46ca-9e2b-7441b7eea1a7",
+        "b56a92c6-2db8-4f79-9a2f-ffffbc25e019"
+      ],
+      "custom_css": [
+        "p {font-family: \"Harmonia Sans\" !important; text-transform: uppercase; font-weight: 100; letter-spacing: 4px !important;}"
+      ],
+      "settings": {
+        "height": "use_screen_one_third",
+        "color_bg": "palette--light bg--neutral",
+        "video_bg": "shopify:\/\/files\/videos\/about us video-2.mp4",
+        "object_position": "center-center",
+        "preload_image": false,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "70df2f09-7493-4c7a-bfaa-617dcb9a3235": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--15897219563577__70df2f09-7493-4c7a-bfaa-617dcb9a3235-kicker-1": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "[MYS]",
+            "enable_line": false,
+            "text_size": 7
+          }
+        },
+        "template--15897219563577__70df2f09-7493-4c7a-bfaa-617dcb9a3235-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mys was born to materialize the Nordic experience of well-being, warmth, and coziness in a wide ranging proposal of luxury wellness products and home goods.",
+            "text_size": 4
+          }
+        },
+        "459542ef-4aa9-4c94-9bae-23ed99cc4788": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Inspired by the pleasure and balance of enjoying the little things in life, like a hot cup of coffee, a view of the forest, a moment of stillness under a warm blanket, the peace of the sounds of nature.",
+            "text_size": 4
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219563577__70df2f09-7493-4c7a-bfaa-617dcb9a3235-kicker-1",
+        "template--15897219563577__70df2f09-7493-4c7a-bfaa-617dcb9a3235-heading-1",
+        "459542ef-4aa9-4c94-9bae-23ed99cc4788"
+      ],
+      "custom_css": [
+        ".standard__kicker.accent-size-7.aos-init.aos-animate {font-family: var(--FONT-STACK-ACCENT); font-weight: ligh; color: currentcolor; letter-spacing: 3px;}",
+        ".standard__heading {\/*font-family: inherit !important; color: #9caf89;*\/}",
+        ".standard__image.aos-init.aos-animate {position: absolute; right: 0px; margin-top: -110px;}",
+        ".standard__image.aos-init.aos-animate:nth-child(2n) {position: absolute; left: -96vw; margin-top: -84px;}",
+        "img {opacity: 0.1;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 900,
+        "width": "wrapper",
+        "padding_top": 80,
+        "padding_bottom": 104
+      }
+    },
+    "e218903d-3cad-4925-a954-a3e87fd92fdc": {
+      "type": "section-double",
+      "blocks": {
+        "template--15897219563577__e218903d-3cad-4925-a954-a3e87fd92fdc-text-1": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "A mexican brand with a swedish soul",
+            "text": "<p><strong>-<\/strong><\/p><p><strong>Mys is a Mexican brand<\/strong> with a <strong>Swedish soul, <\/strong>the result of the creativity and entrepreneurship of <strong>Helle Jeppsson,<\/strong> the founder of Scape.<\/p><p>This project seeks to merge the Swedish concept of Wellness with the ancient traditions of herbal medicine, aromatherapy, and natural cosmetics.<\/p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "template--15897219563577__e218903d-3cad-4925-a954-a3e87fd92fdc-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/helle.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219563577__e218903d-3cad-4925-a954-a3e87fd92fdc-text-1",
+        "template--15897219563577__e218903d-3cad-4925-a954-a3e87fd92fdc-image-1"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"Playfair Display\" !important; font-size: 4em;}",
+        ".wrapper--full {padding-right: 0; padding-left: 0;}",
+        ".brick__block__text__inner {padding-left: var(--outer);}"
+      ],
+      "settings": {
+        "height": "use_pixels_500",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "#e5e5e5",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "d0210bc8-622b-4a4c-9783-e8539b9bd19f": {
+      "type": "section-double",
+      "blocks": {
+        "template--15897219563577__d0210bc8-622b-4a4c-9783-e8539b9bd19f-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image-2.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "template--15897219563577__d0210bc8-622b-4a4c-9783-e8539b9bd19f-text-1": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Helle teamed up with Mexican talent",
+            "text": "<p>-<\/p><p>For this new endeavor, <strong>Helle teamed up with Mexican talent<\/strong> who helped create a line of <strong>natural products<\/strong> of the highest quality, with a great story and concept behind them. <\/p><p><strong>Izaskun Díaz,<\/strong> the first Mexican nose and founder of Izaskun Estudio Olfativo was in charge of finding the perfect mix of aromas for the concepts that Helle wanted to convey in each collection.<\/p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219563577__d0210bc8-622b-4a4c-9783-e8539b9bd19f-image-1",
+        "template--15897219563577__d0210bc8-622b-4a4c-9783-e8539b9bd19f-text-1"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"Playfair Display\" !important; font-size: 4em;}",
+        ".wrapper--full {padding-right: 0; padding-left: 0;}",
+        ".brick__block__text__inner {padding-left: var(--outer);}"
+      ],
+      "settings": {
+        "height": "use_pixels_500",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "#dee5d4",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "f41c34d4-682e-4435-89ca-34618b52c01d": {
+      "type": "section-double",
+      "blocks": {
+        "template--15897219563577__f41c34d4-682e-4435-89ca-34618b52c01d-text-1": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Mexican architects Andres and Regina",
+            "text": "<p>-<\/p><p>On the other hand, the Mexican Architects <strong>Andres Mier y Teran<\/strong> and <strong>Regina Galvanduque<\/strong> from firm MYT+GLVDK, had the task of developing the brand's design, identity, branding, and merchandising. <\/p><p>The release consists of four permanent collections. Each one with a unique personality, starring colors and aromas that pay tribute to the different seasons of the year.<\/p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": "#e5e5e5"
+          }
+        },
+        "template--15897219563577__f41c34d4-682e-4435-89ca-34618b52c01d-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image-3.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219563577__f41c34d4-682e-4435-89ca-34618b52c01d-text-1",
+        "template--15897219563577__f41c34d4-682e-4435-89ca-34618b52c01d-image-1"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"Playfair Display\" !important; font-size: 4em;}",
+        ".wrapper--full {padding-right: 0; padding-left: 0;}",
+        ".brick__block__text__inner {padding-left: var(--outer);}"
+      ],
+      "settings": {
+        "height": "use_pixels_500",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b33fdeab-6f18-4bc3-8130-b410b9f7de86": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--15897219563577__b33fdeab-6f18-4bc3-8130-b410b9f7de86-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For its first drop, Mys launches a hand soap and cream, body oil, aromatherapy, room and linen spray, candles, and diffusers, all created with natural ingredients.<\/p>",
+            "text_size": 5,
+            "text_columns": 1
+          }
+        },
+        "template--15897219563577__b33fdeab-6f18-4bc3-8130-b410b9f7de86-button-1": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Shop Now",
+            "link_1": "shopify:\/\/collections\/all",
+            "button_size_1": "btn--large btn--long",
+            "button_style_1": "btn",
+            "button_color_1": "btn--neutral",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--medium",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--neutral",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219563577__b33fdeab-6f18-4bc3-8130-b410b9f7de86-text-1",
+        "template--15897219563577__b33fdeab-6f18-4bc3-8130-b410b9f7de86-button-1"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 90,
+        "padding_bottom": 66
+      }
+    },
+    "1e03154f-3946-4138-b44d-7a5322541de7": {
+      "type": "section-tabs",
+      "blocks": {
+        "template--15897219563577__1e03154f-3946-4138-b44d-7a5322541de7-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "SPRING  · VÅR",
+            "text": "<p>Spring’s scent is soft as flower petals with an off-white visual look.<\/p><p><br\/>The combination of bergamot, green woods, and cloudberry gives the feeling of lighter days ahead. Like spring, the fragrance could be perceived as a bit cold, like walking in a tall green forest, but as time goes by, you’ll find the blossoming touch of fresh flowers and citrus ready to brighten your day.<\/p>"
+          }
+        },
+        "template--15897219563577__1e03154f-3946-4138-b44d-7a5322541de7-text-2": {
+          "type": "text",
+          "settings": {
+            "title": "SUMMER · SOMMAR",
+            "text": "<p>Summer’s scent, in slate gray, is sweet like summer memories.<\/p><p><br\/>There’s something about Juniper meeting Lavender and Rosemary that allows this fragrance to take you to a summer in the wild.<\/p><p><br\/>Imagine those fabulous views and the nature surrounding you, immersed in a peaceful feeling as you sit on the grass looking at the clouds and the blue sky, reminding you that here and now, everything’s ok.<\/p>"
+          }
+        },
+        "template--15897219563577__1e03154f-3946-4138-b44d-7a5322541de7-text-3": {
+          "type": "text",
+          "settings": {
+            "title": "FALL · HØST",
+            "text": "<p>In mint, Fall’s scent is a woody mix of Birch, Cedarwood and Musk.<\/p><p><br\/>A serene and warm fragrance that will feel like a cuddle in the softest of blankets while sitting on the most comfortable couch facing the chimney. <\/p><p>The notes of lavender and violet, combined with the woods, invite you into this soft scape in a cabin in the forest. Grab your favorite warm drink and let yourself enjoy it as you watch the leaves turn orange and your soul turn tranquil.<\/p>"
+          }
+        },
+        "f2b6c4fb-0317-4350-b10e-7f28acdce26b": {
+          "type": "text",
+          "settings": {
+            "title": "WINTER · VINTER",
+            "text": "<p><strong>Winter’s<\/strong> scent is an ode to the warmer and yet the colder times of the year. <\/p><p>Intense Sandalwood, White Musk, and the traditional Elderflower shed light for the darkest days, which is why charcoal gray was selected for this collection. <\/p><p>This powerful fragrance and its aromatherapeutic notes will remind you that in winter, like in life, the outside can be chilly. Still, inside, you are strong; you can feel like a cozy house full of candles glowing no matter the circum- stances.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219563577__1e03154f-3946-4138-b44d-7a5322541de7-text-1",
+        "template--15897219563577__1e03154f-3946-4138-b44d-7a5322541de7-text-2",
+        "template--15897219563577__1e03154f-3946-4138-b44d-7a5322541de7-text-3",
+        "f2b6c4fb-0317-4350-b10e-7f28acdce26b"
+      ],
+      "custom_css": [
+        ".tab-link.current {border-bottom-color: var(--border); font-weight: 100 !important; letter-spacing: 3px; --COLOR-A20: rgb(155 172 135) !important; font-size: 1.2em;}",
+        ".tab-link {font-weight: 100 !important; letter-spacing: 3px; font-size: 1.2em;}",
+        ".tab-content.current {margin-top: 4vh;}",
+        "button.tab-link.tab-link--alt.tab-link-1,button.tab-link.tab-link--alt.tab-link-2 {font-size: 1.2em !important;}",
+        "p {font-size: 1.2em;}",
+        ".tab-link.current {background: #f9f9f9; border-bottom-color: rgb(220 55 55 \/ 0%);}",
+        "button.tab-link {padding: 12px;}"
+      ],
+      "settings": {
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 70
+      }
+    },
+    "7f08716f-2496-40ef-97f2-50ea07a4bc52": {
+      "type": "section-list-collections",
+      "blocks": {
+        "template--15897219563577__7f08716f-2496-40ef-97f2-50ea07a4bc52-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "spring-var",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "text_color": "text--white"
+          }
+        },
+        "template--15897219563577__7f08716f-2496-40ef-97f2-50ea07a4bc52-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "summer-sommar",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "text_color": "text--white"
+          }
+        },
+        "52128b87-9d13-41d4-9f35-9485cd5f099b": {
+          "type": "collection",
+          "settings": {
+            "collection": "fall-host-1",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "text_color": "text--white"
+          }
+        },
+        "f4ffd8a2-6588-4323-bc6f-aff4286d2b63": {
+          "type": "collection",
+          "settings": {
+            "collection": "winter-vinter",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "text_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219563577__7f08716f-2496-40ef-97f2-50ea07a4bc52-collection-1",
+        "template--15897219563577__7f08716f-2496-40ef-97f2-50ea07a4bc52-collection-2",
+        "52128b87-9d13-41d4-9f35-9485cd5f099b",
+        "f4ffd8a2-6588-4323-bc6f-aff4286d2b63"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2.kicker-flourished.mb-7 {font-size: 2em; font-weight: 200; letter-spacing: 3px;}",
+        "[data-grid]:not([data-grid-no-gutters]) [data-item] {padding: 10px 5px;}"
+      ],
+      "settings": {
+        "title": "SHOP BY SEASON",
+        "bg": "palette--light bg--neutral",
+        "enable_carousel": false,
+        "progress_bar": "mobile",
+        "wh_ratio": 0.7,
+        "grid_large": 4,
+        "grid_medium": 2,
+        "grid_mobile": 1.2,
+        "font_family": "body",
+        "title_size": 8,
+        "accent_size": 3,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 70
+      }
+    },
+    "95b2b9d0-3994-4b48-808a-cb04a5e45692": {
+      "type": "collections-2",
+      "blocks": {
+        "template--15897219563577__95b2b9d0-3994-4b48-808a-cb04a5e45692-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "essential-oil",
+            "image": "shopify:\/\/shop_images\/c1.png",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "text_color": "text--white"
+          }
+        },
+        "template--15897219563577__95b2b9d0-3994-4b48-808a-cb04a5e45692-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "kits",
+            "image": "shopify:\/\/shop_images\/kits.png",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "text_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219563577__95b2b9d0-3994-4b48-808a-cb04a5e45692-collection-1",
+        "template--15897219563577__95b2b9d0-3994-4b48-808a-cb04a5e45692-collection-2"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "enable_carousel": false,
+        "progress_bar": "mobile",
+        "wh_ratio": 1.5,
+        "grid_large": 2,
+        "grid_medium": 2,
+        "grid_mobile": 1.2,
+        "font_family": "body",
+        "title_size": 8,
+        "accent_size": 3,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 80
+      }
+    },
+    "994a0928-9c21-403e-8b17-097b757744f8": {
+      "type": "section-logos",
+      "blocks": {
+        "template--15897219563577__994a0928-9c21-403e-8b17-097b757744f8-logo_image-1": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "new_tab": true,
+            "width": 140,
+            "spacing": 50
+          }
+        },
+        "template--15897219563577__994a0928-9c21-403e-8b17-097b757744f8-logo_image-2": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "new_tab": true,
+            "width": 140,
+            "spacing": 50
+          }
+        },
+        "template--15897219563577__994a0928-9c21-403e-8b17-097b757744f8-logo_image-3": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "new_tab": true,
+            "width": 140,
+            "spacing": 50
+          }
+        },
+        "template--15897219563577__994a0928-9c21-403e-8b17-097b757744f8-logo_image-4": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "new_tab": true,
+            "width": 140,
+            "spacing": 50
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219563577__994a0928-9c21-403e-8b17-097b757744f8-logo_image-1",
+        "template--15897219563577__994a0928-9c21-403e-8b17-097b757744f8-logo_image-2",
+        "template--15897219563577__994a0928-9c21-403e-8b17-097b757744f8-logo_image-3",
+        "template--15897219563577__994a0928-9c21-403e-8b17-097b757744f8-logo_image-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "enable_marquee": false,
+        "marquee_speed": 30,
+        "width": "wrapper--none",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "7df4c2c3-9898-4592-a307-a9016a327a87",
+    "70df2f09-7493-4c7a-bfaa-617dcb9a3235",
+    "e218903d-3cad-4925-a954-a3e87fd92fdc",
+    "d0210bc8-622b-4a4c-9783-e8539b9bd19f",
+    "f41c34d4-682e-4435-89ca-34618b52c01d",
+    "b33fdeab-6f18-4bc3-8130-b410b9f7de86",
+    "1e03154f-3946-4138-b44d-7a5322541de7",
+    "7f08716f-2496-40ef-97f2-50ea07a4bc52",
+    "95b2b9d0-3994-4b48-808a-cb04a5e45692",
+    "994a0928-9c21-403e-8b17-097b757744f8"
+  ]
+}

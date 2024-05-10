@@ -1,0 +1,171 @@
+{
+  "sections": {
+    "hero": {
+      "type": "collection-hero",
+      "custom_css": [
+        "h1 {letter-spacing: 3px !important; font-weight: 100 !important; text-transform: uppercase !important; font-size: 2.3em;}"
+      ],
+      "settings": {
+        "text_align": "align--middle-center",
+        "show_title": true,
+        "show_title_below": false,
+        "show_description": true,
+        "show_description_below": true,
+        "color_bg": "palette--light bg--neutral",
+        "show_image": true,
+        "bg_position": "center-center",
+        "image_height": "use_screen_one_third",
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "text_color": "text--white",
+        "width": "wrapper--none",
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "width_text": "wrapper",
+        "padding_top_text": 36,
+        "padding_bottom_text": 0
+      }
+    },
+    "section_double_iRj6QX": {
+      "type": "section-double",
+      "blocks": {
+        "text_GBfbBi": {
+          "type": "text",
+          "settings": {
+            "kicker": "PERFUME OIL",
+            "title": "",
+            "text": "<p>¡Descubre la esencia de la sofisticación y el encanto en cada gota de nuestra colección de Perfume Oil!<\/p><p>Lleva contigo el alma de la esencia en primer plano, envolviéndote en una fragancia que perdura todo el día. Su fórmula concentrada garantiza una durabilidad excepcional.<\/p><p>Fácil de aplicar y de llevar a todos lados, nuestro perfume oil es el compañero perfecto para tu estilo de vida activo y en movimiento. <\/p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "video_xGUKRR": {
+          "type": "video",
+          "settings": {
+            "video_bg": "shopify:\/\/files\/videos\/IMG_5856.mov",
+            "object_position": "center-center",
+            "video_link": "",
+            "popup_text": "",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "overlay_opacity": 10,
+            "overlay_color": "#000000",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "text_GBfbBi",
+        "video_xGUKRR"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {
+      }
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "settings": {
+      }
+    },
+    "subcollections": {
+      "type": "collection-sub",
+      "settings": {
+        "subcollections": [
+
+        ],
+        "limit": 6,
+        "color_bg": "palette--light bg--neutral",
+        "text_color": "text--white",
+        "text_align": "align--middle-center",
+        "select_image": "collection",
+        "bg_position": "center-center",
+        "wh_ratio": 1.7,
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "grid_mobile": 1.2,
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "filters": {
+          "type": "filters",
+          "settings": {
+          }
+        },
+        "collections": {
+          "type": "collections",
+          "settings": {
+            "title": "Categorías"
+          }
+        }
+      },
+      "block_order": [
+        "filters",
+        "collections"
+      ],
+      "settings": {
+        "product_limit": 36,
+        "grid_large": 2,
+        "grid_mobile": "2",
+        "enable_layout_toggle": true,
+        "color_bg": "palette--light bg--neutral",
+        "collection_sorting": true,
+        "hide_sidebar": false,
+        "collapse_filters": true,
+        "show_products_count": true,
+        "width": "wrapper--full",
+        "padding_top": 20,
+        "padding_bottom": 64
+      }
+    },
+    "shogun-below": {
+      "type": "shogun-below",
+      "settings": {
+      }
+    },
+    "shogun-optimizer": {
+      "type": "shogun-optimizer",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "section_double_iRj6QX",
+    "shogun-helper",
+    "shogun-above",
+    "subcollections",
+    "main",
+    "shogun-below",
+    "shogun-optimizer"
+  ]
+}

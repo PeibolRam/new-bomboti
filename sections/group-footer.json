@@ -1,0 +1,107 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "ee631e51-129f-4bef-bb16-ea8cb42a6424": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "A mexican brand with a swedish soul",
+            "text": "",
+            "text_size": 4,
+            "accordion_default": "accordion-is-open"
+          }
+        },
+        "linklist-1": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "footer-menu",
+            "title": "Ayuda",
+            "accordion_default": ""
+          }
+        },
+        "linklist-2": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "shop",
+            "title": "Shop",
+            "accordion_default": ""
+          }
+        },
+        "cb2fc9b6-cb71-4cf7-84e8-f15ecea59fcb": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "company",
+            "title": "",
+            "accordion_default": ""
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "show_image": true,
+            "image": "shopify:\/\/shop_images\/pexels-kei-scampa-4507967.jpg",
+            "wh_ratio": 2.8,
+            "newsletter_enable": true,
+            "recaptcha_enabled": false,
+            "kicker": "Newsletter",
+            "heading": "Regístrate para recibir consejos de decoración y bienestar, novedades y ofertas exclusivas.",
+            "richtext": "<p>Mys, la experiencia de bienestar nórdica<\/p>",
+            "text_size": 4,
+            "background_color": "#ecf7db",
+            "text_color_value": "#333333"
+          }
+        },
+        "b05f30ff-8871-4bc8-99a5-f64b8c78a5da": {
+          "type": "social",
+          "settings": {
+            "title": "Una marca mexicana con espíritu sueco.",
+            "text_size": 6
+          }
+        }
+      },
+      "block_order": [
+        "ee631e51-129f-4bef-bb16-ea8cb42a6424",
+        "linklist-1",
+        "linklist-2",
+        "cb2fc9b6-cb71-4cf7-84e8-f15ecea59fcb",
+        "newsletter",
+        "b05f30ff-8871-4bc8-99a5-f64b8c78a5da"
+      ],
+      "custom_css": [
+        ".footer__logo img {margin-left: -6.5vw; margin-bottom: -4vw;}",
+        "h3.heading-size-6 {font-family: var(--FONT-STACK-ACCENT); font-weight: 500; color: currentcolor; letter-spacing: 3px; text-transform: uppercase;}",
+        "p.footer__title.footer__accordion__head.js,p.footer__title {font-size: 1.2em;}",
+        ".newsletter-block .input-group--inner-button {padding: 5px 12px; border: 1px solid currentColor !important;}",
+        ".footer__newsletter__image img {height: 135px !important;}"
+      ],
+      "settings": {
+        "menu_position": "left",
+        "logo_max_limit": 290,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 40
+      }
+    },
+    "subfooter": {
+      "type": "subfooter",
+      "settings": {
+        "footer_secondary_linklist": "",
+        "footer_payment_enable": false,
+        "footer_social_enable": false,
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "subfooter"
+  ]
+}

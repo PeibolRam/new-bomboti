@@ -1,0 +1,393 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "custom_css": [
+        "h2 {text-align: center; text-transform: uppercase; font-weight: 100; letter-spacing: 3px;}",
+        ".wrapper {width: 80%;}",
+        "@media only screen and (min-width: 600px) {.text__standard.text-left {margin: 30px 0 70px 0; }}"
+      ],
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 7,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "3997de7e-dfc0-48bb-99e8-8e21456640bb": {
+      "type": "section-hero",
+      "blocks": {
+        "template--15929845678137__3997de7e-dfc0-48bb-99e8-8e21456640bb-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "PRESS",
+            "text_size": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--15929845678137__3997de7e-dfc0-48bb-99e8-8e21456640bb-heading-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bg-press.jpg",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "59bd5954-ed22-4095-b76a-2df0d0695f9f": {
+      "type": "section-columns",
+      "blocks": {
+        "template--15929845678137__59bd5954-ed22-4095-b76a-2df0d0695f9f-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-10-02_at_16.50.58.png",
+            "title": "",
+            "text": "",
+            "button_label": "Reforma",
+            "button_link": "https:\/\/www.reforma.com\/lanza-scape-los-productos-wellness-mys\/ar2630240",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--15929845678137__59bd5954-ed22-4095-b76a-2df0d0695f9f-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-10-03_at_17.30.31.png",
+            "title": "",
+            "text": "",
+            "button_label": "The Happening",
+            "button_link": "https:\/\/thehappening.com\/mys-productos-wellness-y-home-goods-de-lujo\/",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--15929845678137__59bd5954-ed22-4095-b76a-2df0d0695f9f-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-10-03_at_17.35.17.png",
+            "title": "",
+            "text": "",
+            "button_label": "Golf & Spa",
+            "button_link": "https:\/\/www.golfandspa.mx\/2023\/06\/esto-es-mys-los-productos-wellness-y-home-goods-sueco-mexicanos-para-consentirte\/",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "3301e4d4-49c1-45fb-a32d-a838e7e3a69d": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-10-03_at_17.39.06.png",
+            "title": "",
+            "text": "",
+            "button_label": "Wowman",
+            "button_link": "https:\/\/wowman.mx\/8812\/",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "9820eee5-8367-4b9d-aa8e-c9e969d96e9f": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-10-04_at_21.15.29.png",
+            "title": "",
+            "text": "",
+            "button_label": "Design Hunter",
+            "button_link": "https:\/\/www.designhunter.mx\/mys-apapacho\/",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "50f0f487-ef70-417e-a373-e43606c84118": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-10-04_at_21.18.22.png",
+            "title": "",
+            "text": "",
+            "button_label": "Marie Claire",
+            "button_link": "https:\/\/marieclaire.com.mx\/mys-marca-mexicana-de-velas\/",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "a87b9be2-b057-48bb-81fd-200960762a2d": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-10-04_at_21.22.40.png",
+            "title": "",
+            "text": "",
+            "button_label": "Noir Magazine",
+            "button_link": "https:\/\/noirmagazine.mx\/moda\/mys-una-vela-para-cada-ocasion\/",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "template--15929845678137__59bd5954-ed22-4095-b76a-2df0d0695f9f-text_block-1",
+        "template--15929845678137__59bd5954-ed22-4095-b76a-2df0d0695f9f-text_block-2",
+        "template--15929845678137__59bd5954-ed22-4095-b76a-2df0d0695f9f-text_block-3",
+        "3301e4d4-49c1-45fb-a32d-a838e7e3a69d",
+        "9820eee5-8367-4b9d-aa8e-c9e969d96e9f",
+        "50f0f487-ef70-417e-a373-e43606c84118",
+        "a87b9be2-b057-48bb-81fd-200960762a2d"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Junio",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "wh_ratio": 1.3,
+        "grid_large": 5,
+        "grid_medium": 4,
+        "grid_mobile": 2.3,
+        "progress_bar_mobile": true,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ae67fb63-012a-428f-88cc-04f23ceaaeb5": {
+      "type": "section-columns",
+      "blocks": {
+        "template--15929845678137__ae67fb63-012a-428f-88cc-04f23ceaaeb5-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/JUL-AGO_2023_Golf_Spa.jpg",
+            "title": "",
+            "text": "",
+            "button_label": "Golf & Spa",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0591\/5007\/3913\/files\/JUL-AGO_2023_Golf_Spa.jpg?v=1696476433",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--15929845678137__ae67fb63-012a-428f-88cc-04f23ceaaeb5-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/JULIO_2023_Elle.png",
+            "title": "",
+            "text": "",
+            "button_label": "Elle",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0591\/5007\/3913\/files\/JULIO_2023_Elle.png?v=1696476434",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--15929845678137__ae67fb63-012a-428f-88cc-04f23ceaaeb5-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-10-04_at_21.32.14.png",
+            "title": "",
+            "text": "",
+            "button_label": "Instyle",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0591\/5007\/3913\/files\/JUL-AGO_2023_Instyle.pdf?v=1696476439",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "template--15929845678137__ae67fb63-012a-428f-88cc-04f23ceaaeb5-text_block-1",
+        "template--15929845678137__ae67fb63-012a-428f-88cc-04f23ceaaeb5-text_block-2",
+        "template--15929845678137__ae67fb63-012a-428f-88cc-04f23ceaaeb5-text_block-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Julio",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "wh_ratio": 1.3,
+        "grid_large": 5,
+        "grid_medium": 4,
+        "grid_mobile": 2.3,
+        "progress_bar_mobile": true,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "805633fc-cce9-41a3-98d5-462d9e20b617": {
+      "type": "section-columns",
+      "blocks": {
+        "template--15929845678137__805633fc-cce9-41a3-98d5-462d9e20b617-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-10-04_at_21.37.12.png",
+            "title": "",
+            "text": "",
+            "button_label": "L'Beauté",
+            "button_link": "https:\/\/lbeaute.mx\/bienestar2\/mys-lujo-bienestar-apapacho-y-calidez\/",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--15929845678137__805633fc-cce9-41a3-98d5-462d9e20b617-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/AGO_2023_Lideres_Mexicanos.png",
+            "title": "",
+            "text": "",
+            "button_label": "Líderes mexicanos",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0591\/5007\/3913\/files\/AGO_2023_Lideres_Mexicanos.png?v=1696476968",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--15929845678137__805633fc-cce9-41a3-98d5-462d9e20b617-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-10-04_at_21.38.44.png",
+            "title": "",
+            "text": "",
+            "button_label": "Cosmopolitan",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0591\/5007\/3913\/files\/AGO_2023_Cosmopolitan.pdf?v=1696476972",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "template--15929845678137__805633fc-cce9-41a3-98d5-462d9e20b617-text_block-1",
+        "template--15929845678137__805633fc-cce9-41a3-98d5-462d9e20b617-text_block-2",
+        "template--15929845678137__805633fc-cce9-41a3-98d5-462d9e20b617-text_block-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Agosto",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "wh_ratio": 1.3,
+        "grid_large": 5,
+        "grid_medium": 4,
+        "grid_mobile": 2.3,
+        "progress_bar_mobile": true,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4831534c-e6ac-47fc-a429-2de2f2c806a0": {
+      "type": "section-columns",
+      "blocks": {
+        "template--15929845678137__4831534c-e6ac-47fc-a429-2de2f2c806a0-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/SEPT_2023_RSVP_Excelsior.png",
+            "title": "",
+            "text": "",
+            "button_label": "Excélsior",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0591\/5007\/3913\/files\/SEPT_2023_RSVP_Excelsior.png?v=1696477310",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--15929845678137__4831534c-e6ac-47fc-a429-2de2f2c806a0-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-10-03_at_17.32.00.png",
+            "title": "",
+            "text": "",
+            "button_label": "L'Beauté",
+            "button_link": "https:\/\/lbeaute.mx\/bienestar2\/marcas-mexicanas-para-complementar-rutina-belleza\/",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "template--15929845678137__4831534c-e6ac-47fc-a429-2de2f2c806a0-text_block-1",
+        "template--15929845678137__4831534c-e6ac-47fc-a429-2de2f2c806a0-text_block-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Septiembre",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "wh_ratio": 1.3,
+        "grid_large": 5,
+        "grid_medium": 4,
+        "grid_mobile": 2.2,
+        "progress_bar_mobile": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3997de7e-dfc0-48bb-99e8-8e21456640bb",
+    "59bd5954-ed22-4095-b76a-2df0d0695f9f",
+    "ae67fb63-012a-428f-88cc-04f23ceaaeb5",
+    "805633fc-cce9-41a3-98d5-462d9e20b617",
+    "4831534c-e6ac-47fc-a429-2de2f2c806a0"
+  ]
+}

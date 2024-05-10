@@ -1,0 +1,399 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "3c5c144f-7230-40a1-a97d-cccadea4fc16": {
+      "type": "section-video",
+      "blocks": {
+        "template--15897219596345__3c5c144f-7230-40a1-a97d-cccadea4fc16-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "INGREDIENT GARDEN",
+            "text_size": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219596345__3c5c144f-7230-40a1-a97d-cccadea4fc16-heading-1"
+      ],
+      "settings": {
+        "height": "use_screen_one_third",
+        "color_bg": "palette--light bg--neutral",
+        "video_bg": "shopify:\/\/files\/videos\/pexels-artem-podrez-7234017 (2160p).mp4",
+        "object_position": "center-center",
+        "preload_image": false,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "80709621-1348-4c5a-b6a2-ac7085d7e140": {
+      "type": "section-double",
+      "blocks": {
+        "template--15897219596345__80709621-1348-4c5a-b6a2-ac7085d7e140-text-1": {
+          "type": "text",
+          "settings": {
+            "kicker": "ENERGIZING",
+            "title": "SPRING · VÅR",
+            "text": "<p>In off-white tones, this collection reflects the parallelism of the Nordic spring, represented by mist, snow or cold, and the Mexican spring, floral and citrus. Combining bergamot, green woods and blackberries, give the sensation of days lighter ahead, a breath of fresh air, a chance to find strength, encouragement and energy.<\/p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "SHOP NOW",
+            "button_url": "shopify:\/\/collections\/spring-var",
+            "button_color": "btn--neutral",
+            "button_style": "btn btn--long",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "template--15897219596345__80709621-1348-4c5a-b6a2-ac7085d7e140-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/spring_fed95970-660f-40cc-a363-ff0be2d146bc.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219596345__80709621-1348-4c5a-b6a2-ac7085d7e140-text-1",
+        "template--15897219596345__80709621-1348-4c5a-b6a2-ac7085d7e140-image-1"
+      ],
+      "custom_css": [
+        ".brick__block {width: auto;}",
+        "h2 {font-size: 2.5em; letter-spacing: 3px;}",
+        ".standard__kicker.aos-init.aos-animate {font-family: \"Harmonia Sans\"; letter-spacing: 2px; font-weight: 400;}"
+      ],
+      "settings": {
+        "height": "use_image",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "e3882b36-b14c-4b1d-b097-52facea44567": {
+      "type": "section-double",
+      "blocks": {
+        "template--15897219596345__e3882b36-b14c-4b1d-b097-52facea44567-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/summer_7fd613c7-db12-4895-97e6-36876e102020.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "template--15897219596345__e3882b36-b14c-4b1d-b097-52facea44567-text-1": {
+          "type": "text",
+          "settings": {
+            "kicker": "DETOX",
+            "title": "SUMMER · SOMMAR",
+            "text": "<p>There is something in the meeting between juniper, lavender and rosemary that allows this fragrance to take you to a summer in the nature. For Sommar, the nostalgia for the long and intermittent gentle Swedish summer days mix with the feeling of the water on the skin, the scent of dry grasslands that cause a optimism effect, and help reduce anxiety and achieve a Focus on the present moment. In mint color, like the summers in Sandefjord.<\/p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "SHOP NOW",
+            "button_url": "shopify:\/\/collections\/summer-sommar",
+            "button_color": "btn--neutral",
+            "button_style": "btn btn--long",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219596345__e3882b36-b14c-4b1d-b097-52facea44567-image-1",
+        "template--15897219596345__e3882b36-b14c-4b1d-b097-52facea44567-text-1"
+      ],
+      "custom_css": [
+        ".brick__block {width: auto;}",
+        "h2 {font-size: 2.5em; letter-spacing: 3px;}",
+        ".standard__kicker.aos-init.aos-animate {font-family: \"Harmonia Sans\"; letter-spacing: 2px; font-weight: 400;}"
+      ],
+      "settings": {
+        "height": "use_image",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "a68bc8da-238c-49d4-8d13-4409a8cf588c": {
+      "type": "section-double",
+      "blocks": {
+        "template--15897219596345__a68bc8da-238c-49d4-8d13-4409a8cf588c-text-1": {
+          "type": "text",
+          "settings": {
+            "kicker": "MINDFULNESS",
+            "title": "FALL · HØST",
+            "text": "<p>Rendered in slate grey, the scent of fall is a mix woody notes of birch, cedar and musk. A serene fragrance<br\/>warm, the perfect combination between the elegance of wood and the feeling of warmth that comes from being at home, like snuggling in the softest of blankets in front of a fireplace. The notes of lavender and violet complement this season, full of character, presence and inspiration.<\/p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "SHOP NOW",
+            "button_url": "shopify:\/\/collections\/fall-host-1",
+            "button_color": "btn--neutral",
+            "button_style": "btn btn--long",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "template--15897219596345__a68bc8da-238c-49d4-8d13-4409a8cf588c-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fall_1337d96b-5113-473b-825e-b6b451532a62.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219596345__a68bc8da-238c-49d4-8d13-4409a8cf588c-text-1",
+        "template--15897219596345__a68bc8da-238c-49d4-8d13-4409a8cf588c-image-1"
+      ],
+      "custom_css": [
+        ".brick__block {width: auto;}",
+        "h2 {font-size: 2.5em; letter-spacing: 3px;}",
+        ".standard__kicker.aos-init.aos-animate {font-family: \"Harmonia Sans\"; letter-spacing: 2px; font-weight: 400;}"
+      ],
+      "settings": {
+        "height": "use_image",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8afee304-99b6-4037-9421-34a4ac95751d": {
+      "type": "section-double",
+      "blocks": {
+        "template--15897219596345__8afee304-99b6-4037-9421-34a4ac95751d-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/winter_2f4b8ed3-de76-43c7-a4a8-af2edf08b725.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "template--15897219596345__8afee304-99b6-4037-9421-34a4ac95751d-text-1": {
+          "type": "text",
+          "settings": {
+            "kicker": "SLEEP",
+            "title": "WINTER · VINTER",
+            "text": "<p>The scent of winter is an ode to the warmer times and, without. However, coldest of the year. Intense sandalwood, white musk and the traditional elderflower shed light for the darkest days, so for this collection the charcoal color was chosen. This powerful fragrance and its spicy notes evoke that warm and soft hug that gives fullness. It is silky and elegant like the beauty of the Nordic darkness, with a sensuality that appeals to all the senses.<\/p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "SHOP NOW",
+            "button_url": "shopify:\/\/collections\/winter-vinter",
+            "button_color": "btn--neutral",
+            "button_style": "btn btn--long",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219596345__8afee304-99b6-4037-9421-34a4ac95751d-image-1",
+        "template--15897219596345__8afee304-99b6-4037-9421-34a4ac95751d-text-1"
+      ],
+      "custom_css": [
+        ".brick__block {width: auto;}",
+        "h2 {font-size: 2.5em; letter-spacing: 3px;}",
+        ".standard__kicker.aos-init.aos-animate {font-family: \"Harmonia Sans\"; letter-spacing: 2px; font-weight: 400;}"
+      ],
+      "settings": {
+        "height": "use_image",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e1f72a39-d376-4e52-ad96-d8cf17090673": {
+      "type": "image-carrusel",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "39d92878-3372-45cc-88ad-11aac428bd1b": {
+      "type": "collections-2",
+      "blocks": {
+        "template--15897219596345__39d92878-3372-45cc-88ad-11aac428bd1b-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "essential-oil",
+            "image": "shopify:\/\/shop_images\/c1.png",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "text_color": "text--white"
+          }
+        },
+        "template--15897219596345__39d92878-3372-45cc-88ad-11aac428bd1b-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "kits",
+            "image": "shopify:\/\/shop_images\/kits.png",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "text_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219596345__39d92878-3372-45cc-88ad-11aac428bd1b-collection-1",
+        "template--15897219596345__39d92878-3372-45cc-88ad-11aac428bd1b-collection-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "enable_carousel": false,
+        "progress_bar": "mobile",
+        "wh_ratio": 1.5,
+        "grid_large": 2,
+        "grid_medium": 2,
+        "grid_mobile": 1.2,
+        "font_family": "body",
+        "title_size": 8,
+        "accent_size": 3,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "6c9183e4-48e3-4782-a13d-c2869694dde8": {
+      "type": "section-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<br>\n<br>\n<br>"
+      }
+    },
+    "d88a1301-d968-413e-b750-cf8eb8e29038": {
+      "type": "section-list-collections-products",
+      "blocks": {
+        "template--15897219596345__d88a1301-d968-413e-b750-cf8eb8e29038-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "mys",
+            "title": "",
+            "link_text": "",
+            "enable_item": true,
+            "text": "",
+            "background_color": "rgba(0,0,0,0)",
+            "text_color": "text--neutral",
+            "link_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219596345__d88a1301-d968-413e-b750-cf8eb8e29038-collection-1"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "grid": 5,
+        "rows": 1,
+        "enable_scroll_mobile": true,
+        "grid_small": 1.2,
+        "width": "wrapper",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3c5c144f-7230-40a1-a97d-cccadea4fc16",
+    "80709621-1348-4c5a-b6a2-ac7085d7e140",
+    "e3882b36-b14c-4b1d-b097-52facea44567",
+    "a68bc8da-238c-49d4-8d13-4409a8cf588c",
+    "8afee304-99b6-4037-9421-34a4ac95751d",
+    "e1f72a39-d376-4e52-ad96-d8cf17090673",
+    "39d92878-3372-45cc-88ad-11aac428bd1b",
+    "6c9183e4-48e3-4782-a13d-c2869694dde8",
+    "d88a1301-d968-413e-b750-cf8eb8e29038"
+  ]
+}

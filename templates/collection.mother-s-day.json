@@ -1,0 +1,140 @@
+{
+  "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {
+      }
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "settings": {
+      }
+    },
+    "hero": {
+      "type": "collection-hero",
+      "disabled": true,
+      "custom_css": [
+        "h1 {letter-spacing: 3px !important; font-weight: 100 !important; text-transform: uppercase !important; font-size: 2.3em;}"
+      ],
+      "settings": {
+        "text_align": "align--middle-center",
+        "show_title": true,
+        "show_title_below": false,
+        "show_description": true,
+        "show_description_below": true,
+        "color_bg": "palette--light bg--neutral",
+        "show_image": true,
+        "bg_position": "center-center",
+        "image_height": "use_screen_one_third",
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "text_color": "text--white",
+        "width": "wrapper--none",
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "width_text": "wrapper",
+        "padding_top_text": 36,
+        "padding_bottom_text": 0
+      }
+    },
+    "subcollections": {
+      "type": "collection-sub",
+      "settings": {
+        "subcollections": [
+
+        ],
+        "limit": 6,
+        "color_bg": "palette--light bg--neutral",
+        "text_color": "text--white",
+        "text_align": "align--middle-center",
+        "select_image": "collection",
+        "bg_position": "center-center",
+        "wh_ratio": 1.7,
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "grid_mobile": 1.2,
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "filters": {
+          "type": "filters",
+          "settings": {
+          }
+        },
+        "collections": {
+          "type": "collections",
+          "settings": {
+            "title": "Categorías"
+          }
+        }
+      },
+      "block_order": [
+        "filters",
+        "collections"
+      ],
+      "settings": {
+        "product_limit": 36,
+        "grid_large": 3,
+        "grid_mobile": "1",
+        "enable_layout_toggle": true,
+        "color_bg": "palette--light bg--neutral",
+        "collection_sorting": true,
+        "hide_sidebar": false,
+        "collapse_filters": true,
+        "show_products_count": true,
+        "width": "wrapper--full",
+        "padding_top": 20,
+        "padding_bottom": 64
+      }
+    },
+    "d269b82f-3eaa-43d9-995c-70f587582bce": {
+      "type": "instafeed",
+      "disabled": true,
+      "custom_css": [
+        "h2 {font-size: 3em !important;}"
+      ],
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    },
+    "81ba0104-3189-493b-b3e5-a682bd5e8a20": {
+      "type": "section-newsletter",
+      "disabled": true,
+      "custom_css": [
+        "h2 {font-size: 2em; font-weight: 200; letter-spacing: 3px;}",
+        "h2.kicker-flourished.mb-7.NEWSLETTER {text-align: left;}"
+      ],
+      "settings": {
+        "title": "NEWSLETTER",
+        "richtext": "<p><strong>Sign up for decoration and wellness tips, news and exclusive offers.<\/strong><\/p><p>Mys the Nordic experience of well-being<\/p>",
+        "bg": "palette--light bg--accent",
+        "width": "wrapper",
+        "padding_top": 90,
+        "padding_bottom": 114
+      }
+    },
+    "shogun-below": {
+      "type": "shogun-below",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "shogun-helper",
+    "shogun-above",
+    "hero",
+    "subcollections",
+    "main",
+    "d269b82f-3eaa-43d9-995c-70f587582bce",
+    "81ba0104-3189-493b-b3e5-a682bd5e8a20",
+    "shogun-below"
+  ]
+}

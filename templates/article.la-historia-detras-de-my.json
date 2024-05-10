@@ -1,0 +1,35 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "custom_css": [
+        "h1.blog__article__title.heading-size-9 {font-family: \"Harmonia Sans\"; text-transform: uppercase; font-size: 2em; letter-spacing: 2px;}",
+        ".blog__sidebar {display: none;}",
+        ".blog__article {box-shadow: 9px 15px 19px rgba(0, 0, 0, 0.1);}"
+      ],
+      "settings": {
+        "blog_show_meta": false,
+        "tags": true,
+        "color_bg": "palette--light bg--neutral",
+        "social": true,
+        "share_label": "Share",
+        "image_height": "use_screen_two_thirds",
+        "bg_position": "center-center",
+        "sidebar_tags": false,
+        "recent": true,
+        "wh_ratio": 1.7,
+        "show_author": true,
+        "show_tags": true,
+        "show_date": true,
+        "show_preview": true,
+        "show_link": true,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

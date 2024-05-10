@@ -1,0 +1,71 @@
+{
+  "parent": "page.about-mys.json",
+  "context": {
+    "market": "mx"
+  },
+  "sections": {
+    "70df2f09-7493-4c7a-bfaa-617dcb9a3235": {
+      "settings": {
+      },
+      "blocks": {
+        "template--15897219563577__70df2f09-7493-4c7a-bfaa-617dcb9a3235-heading-1": {
+          "settings": {
+            "heading": "Mys nació para materializar la experiencia nórdica de bienestar y calidez en una amplia gama de productos de wellness y artículos de hogar de lujo, con una personalidad única."
+          }
+        }
+      }
+    },
+    "e218903d-3cad-4925-a954-a3e87fd92fdc": {
+      "settings": {
+      },
+      "blocks": {
+        "template--15897219563577__e218903d-3cad-4925-a954-a3e87fd92fdc-text-1": {
+          "settings": {
+            "title": "Una marca mexicana con alma sueca",
+            "text": "<p><strong>-<\/strong><\/p><p>Mys es una marca mexicana con alma sueca, resultado de la creatividad y emprendimiento de Helle Jeppsson, fundadora de Scape.<br\/><br\/>Nuestro propósito fue combinar el concepto sueco de wellness con las más puras tradiciones ancestrales de aromaterapia, medicina herbal y cosméticos naturales.<\/p>"
+          }
+        }
+      }
+    },
+    "d0210bc8-622b-4a4c-9783-e8539b9bd19f": {
+      "settings": {
+      },
+      "blocks": {
+        "template--15897219563577__d0210bc8-622b-4a4c-9783-e8539b9bd19f-text-1": {
+          "settings": {
+            "title": "Talento mexicano al servicio del bienestar",
+            "text": "<p>-<\/p><p>Para crear Mys, Helle se asoció con Izaskun Díaz, la primera nariz mexicana y fundadora de Izaskun Estudio Olfativo.<br\/><br\/>Izaskun fue y es la encargada de encontrar la mezcla de aromas perfecta para los conceptos que Helle quiere transmitir en cada colección.<\/p>"
+          }
+        }
+      }
+    },
+    "f41c34d4-682e-4435-89ca-34618b52c01d": {
+      "settings": {
+      },
+      "blocks": {
+        "template--15897219563577__f41c34d4-682e-4435-89ca-34618b52c01d-text-1": {
+          "settings": {
+            "title": "El aporte de arquitectos locales",
+            "text": "<p>-<\/p><p>Los Arquitectos mexicanos <strong>Andrés Mier y Terán<\/strong> y <strong>Regina Galvanduque<\/strong>, de la firma <a href=\"https:\/\/www.mytglvdk.com\/proyect\/https\/wwwinstagramcom\/p\/cibkqiaonsd-2bgk7-yj2c6-6fykb\" title=\"https:\/\/www.mytglvdk.com\/proyect\/https\/wwwinstagramcom\/p\/cibkqiaonsd-2bgk7-yj2c6-6fykb\">MYT+GLVDK<\/a>, tuvieron la tarea de desarrollar el diseño, identidad, branding y merchandising de la marca, con cuatro colecciones permanentes que, con una personalidad única, homenajean a cada una de las estaciones del año.<\/p>"
+          }
+        }
+      }
+    },
+    "b33fdeab-6f18-4bc3-8130-b410b9f7de86": {
+      "settings": {
+      },
+      "blocks": {
+        "template--15897219563577__b33fdeab-6f18-4bc3-8130-b410b9f7de86-text-1": {
+          "settings": {
+            "text": "<p>Para su primera colección, Mys lanzó una crema y jabón para manos, aceite corporal, spray para ropa y accesorios, velas y difusores, todos creados con ingredientes naturales de primera calidad.<\/p>"
+          }
+        },
+        "template--15897219563577__b33fdeab-6f18-4bc3-8130-b410b9f7de86-button-1": {
+          "settings": {
+            "link_text_1": "Comprar ahora"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "parent": "group-header.json",
+  "context": {
+    "market": "mx"
+  },
+  "sections": {
+    "header": {
+      "disabled": false,
+      "settings": {
+      },
+      "blocks": {
+      }
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "sections": {
+    "dde12ce7-fc27-48ea-9a1e-99d960b7040c": {
+      "type": "section-hero",
+      "blocks": {
+        "template--15895680843833__dde12ce7-fc27-48ea-9a1e-99d960b7040c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "{{ blog.metafields.custom.blog_title.value }}",
+            "text_size": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--15895680843833__dde12ce7-fc27-48ea-9a1e-99d960b7040c-heading-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/BLOG.png",
+        "height": "use_screen_one_third",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "e1c5de2f-850c-433d-99fb-ff9a52ca3a77": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<br>"
+      }
+    },
+    "main-blog": {
+      "type": "blog",
+      "disabled": true,
+      "custom_css": [
+        "h4.blog__heading.text-center {font-family: \"Harmonia Sans\"; text-transform: uppercase; letter-spacing: 3px;}",
+        ".blog__tags.text-center p,a.blog__tag {font-family: var(--TYPE-STACK-NAV) !important; font-style: var(--TYPE-STYLE-NAV) !important; text-transform: var(--FONT-NAV-TRANSFORM) !important; letter-spacing: var(--FONT-NAV-LETTER-SPACING) !important; font-weight: 100;}",
+        "a.blog__tag {text-transform: uppercase !important; letter-spacing: 3px !important;}"
+      ],
+      "settings": {
+        "heading": "",
+        "show_heading": true,
+        "tag_label": "filed under",
+        "tags": false,
+        "text_align": "text-center",
+        "post_grid": 1,
+        "rows": 1,
+        "wh_ratio": 1,
+        "show_author": false,
+        "show_tags": false,
+        "show_date": true,
+        "show_preview": true,
+        "show_link": true,
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "image_height": "use_pixels_500",
+        "text_color": "text--white",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "43cb9eb4-237a-4b4f-9888-e8876089dd02": {
+      "type": "section-blog",
+      "settings": {
+        "title": "",
+        "homepage_blog": "news",
+        "homepage_blog_count": 3,
+        "progress_bar": "hidden",
+        "grid_large": 3,
+        "grid_medium": 2,
+        "grid_mobile": 1.3,
+        "wh_ratio": 2,
+        "show_author": false,
+        "show_tags": true,
+        "show_date": false,
+        "show_preview": true,
+        "show_link": true,
+        "bg": "palette--light bg--neutral",
+        "color": "text--white",
+        "show_view_all": false,
+        "button_style": "btn",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 58
+      }
+    }
+  },
+  "order": [
+    "dde12ce7-fc27-48ea-9a1e-99d960b7040c",
+    "e1c5de2f-850c-433d-99fb-ff9a52ca3a77",
+    "main-blog",
+    "43cb9eb4-237a-4b4f-9888-e8876089dd02"
+  ]
+}

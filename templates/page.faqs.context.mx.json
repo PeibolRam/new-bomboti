@@ -1,0 +1,185 @@
+{
+  "parent": "page.faqs.json",
+  "context": {
+    "market": "mx"
+  },
+  "sections": {
+    "d1141a71-999c-4624-bc45-5574c8a6c896": {
+      "settings": {
+      },
+      "blocks": {
+        "template--15897219629113__d1141a71-999c-4624-bc45-5574c8a6c896-text-2": {
+          "settings": {
+            "title": "¿Ofrecen protección contra fraude?",
+            "content": "<p>Todos los formularios de pago están sujetos a verificación y revisión por parte de MYS. MYS se reserva el derecho de negarse a procesar cualquier transacción, venta o envío de pedidos debido a sospecha de fraude o actividad no autorizada\/ilegal.<\/p>"
+          }
+        },
+        "template--15897219629113__d1141a71-999c-4624-bc45-5574c8a6c896-text-3": {
+          "settings": {
+            "title": "¿En qué moneda está el sitio?",
+            "content": "<p>Para clientes mexicanos, los pedidos enviados a México se cobrarán en Pesos Mexicanos. Los pedidos que se envíen a EE. UU. se cobrarán en dólares estadounidenses.<br\/>Para clientes internacionales, el pago se cobra en la moneda seleccionada al comenzar su transacción. Esto se calcula sobre un monto base en dólares estadounidenses. Para efectos de trámites de envío internacional, el monto base declarado en la factura comercial se indicará en Dólares Estadounidenses.<\/p>"
+          }
+        },
+        "7d0e50f8-7dd9-4191-8e60-efb93af3e9bc": {
+          "settings": {
+            "title": "¿Cómo se calcula el impuesto sobre las ventas?",
+            "content": "<p>Cobramos impuestos de acuerdo con las pautas del gobierno federal, provincial\/estatal y local, según la dirección de envío que proporciones cuando realices un pedido en línea<\/p>"
+          }
+        }
+      }
+    },
+    "05ab0e83-c7b1-4b98-b121-aaeabce1f90b": {
+      "settings": {
+      },
+      "blocks": {
+        "template--15897219629113__05ab0e83-c7b1-4b98-b121-aaeabce1f90b-text-1": {
+          "settings": {
+            "title": "¿Dónde compro gitf cards para hacer un regalo inolvidable?",
+            "content": "<p>Puedess adquirir una tarjeta de regalo MYS en Bomboti, scape.mx o en línea <a href=\"https:\/\/myswellness.com\/collections\/gift-cards\">aquí.<\/a><\/p>"
+          }
+        },
+        "template--15897219629113__05ab0e83-c7b1-4b98-b121-aaeabce1f90b-text-2": {
+          "settings": {
+            "title": "¿Cómo aplico una gift card a mi pedido?",
+            "content": "<p>En el campo \"Código de descuento\" de tu carrito.<\/p>"
+          }
+        },
+        "template--15897219629113__05ab0e83-c7b1-4b98-b121-aaeabce1f90b-text-3": {
+          "settings": {
+            "title": "¿Cómo canjeo gift cards físicas?",
+            "content": "<p>Puedes canjear hacerlo en Bomboti, scape.mx o en línea. Para canjearlas en la tienda, simplemente presenta tu gift card a cualquier miembro del equipo Bomboti al pagar tus productos MYS. Para canjearlas en línea, agrega tus productos MYS a tu carrito y el número de gift card en el campo \"Código de descuento\".<\/p>"
+          }
+        },
+        "8266936a-e49e-407e-8fbc-ffb3cc9f2620": {
+          "settings": {
+            "title": "¿Puedo devolver una gift card?",
+            "content": "<p>Lo sentimos, nuestras gift cards no se pueden reembolsar ni cambiar por efectivo, a menos que así lo exija la ley aplicable.<\/p>"
+          }
+        },
+        "ddcca57a-48dc-4bf2-869b-7d14ec070120": {
+          "settings": {
+            "title": "Perdí mi gift card, ¿pueden reemplazarla?",
+            "content": "<p>Las gift cards no son reemplazables en caso de pérdida, robo o daño. No podemos volver a emitir gift cards físicas o electrónicas que se hayan perdido o hayan sido robadas.<\/p>"
+          }
+        },
+        "26480ffe-a42a-4351-af7c-4172b7709f96": {
+          "settings": {
+            "title": "No encuentro la gift card electrónica enviada a mi correo electrónico, ¿pueden reenviarla?",
+            "content": "<p>Las gift cards a veces pueden terminar en la carpeta de correo no deseado\/spam de tu correo electrónico. Asegúrate de revisar todas estas carpetas. Si aún tienes problemas para localizar la tarjeta, comunícate con nuestro equipo de Experiencia del Cliente en info@myswellness.com o por teléfono al +52 1 55 6416 4386. <\/p>"
+          }
+        }
+      }
+    },
+    "253daadc-54f8-4980-8350-0131bc1719ef": {
+      "settings": {
+      },
+      "blocks": {
+        "template--15897219629113__253daadc-54f8-4980-8350-0131bc1719ef-heading-1": {
+          "settings": {
+            "heading": "PRODUCTOS"
+          }
+        }
+      }
+    },
+    "fe8584f5-e2a0-415f-b927-6b92a81a3430": {
+      "settings": {
+      },
+      "blocks": {
+        "template--15897219629113__fe8584f5-e2a0-415f-b927-6b92a81a3430-text-1": {
+          "settings": {
+            "title": "¿Prueban sus productos en animales?",
+            "content": "<p>Nunca hemos probado ningún producto MYS en animales, y nunca lo haremos.<\/p>"
+          }
+        },
+        "template--15897219629113__fe8584f5-e2a0-415f-b927-6b92a81a3430-text-2": {
+          "settings": {
+            "content": "<p>Nuestros productos han sido formulados para tener una vida útil de un año. Los productos para el cuidado de la piel tienen un PAO (período posterior a la fecha de apertura) impreso en nuestro empaque.<\/p>",
+            "title": "¿Cuánto duran sus productos?"
+          }
+        },
+        "template--15897219629113__fe8584f5-e2a0-415f-b927-6b92a81a3430-text-3": {
+          "settings": {
+            "title": "¿Cuál es su postura respecto al reuso y reciclaje?",
+            "content": "<p>Nos esforzamos por utilizar materiales sostenibles, reciclados y biodegradables siempre que sea posible. Tanto nuestro embalaje primario como secundario se pueden reciclar, gracias a nuestro acuerdo con un almacén que se suma a nuestros esfuerzos de sostenibilidad.<\/p>"
+          }
+        },
+        "003e3d54-9d6f-4e68-b395-815331b3b6ae": {
+          "settings": {
+            "title": "Tengo la piel sensible. ¿Puedo usar sus productos?",
+            "content": "<p>Nuestros productos han sido probados y aprobados por dermatólogos para todo tipo de piel, incluida la piel sensible; sin embargo, cada piel reacciona de manera diferente. Nuestros productos contienen aceites esenciales naturales, extractos de plantas y complejos botánicos y utilizamos conservantes naturales. Te sugerimos que siempre pruebes cualquier producto en un área pequeña antes de usarlo en áres más extensas de tu piel.<\/p>"
+          }
+        },
+        "e32fe060-b4ac-4160-9fd9-ccb797c809d0": {
+          "settings": {
+            "title": "¿Pueden usarse los productos MYS durante el embarazo?",
+            "content": "<p>Nuestra mejor sugerencia es siempre hablar con tu médico de confianza antes de utilizar cualquier producto a base de aceites esenciales durante el embarazo. <\/p>"
+          }
+        }
+      }
+    },
+    "90ddd19b-7aad-43e1-8654-141dc086e2e5": {
+      "settings": {
+      },
+      "blocks": {
+        "template--15897219629113__90ddd19b-7aad-43e1-8654-141dc086e2e5-text-1": {
+          "settings": {
+            "title": "¿Quién creó MYS?",
+            "content": "<p>Mys es una marca mexicana con alma sueca, resultado de la creatividad y emprendimiento de Helle Jeppsson, fundadora de Scape.<\/p>"
+          }
+        },
+        "template--15897219629113__90ddd19b-7aad-43e1-8654-141dc086e2e5-text-2": {
+          "settings": {
+            "title": "¿Quién creó los aromas, el empaque y el branding de su marca?",
+            "content": "<p>Para este nuevo emprendimiento, Helle se asoció con talento mexicano que ayudó a crear una línea de productos naturales de la más alta calidad, con una gran historia y concepto detrás: Izaskun Díaz, la primera nariz mexicana y fundadora de Izaskun Estudio Olfativo fue la encargada de encontrar la mezcla de aromas perfecta para los conceptos que Helle quería transmitir en cada colección.<\/p><p>Por otra parte, los Arquitectos mexicanos Andrés Mier y Terán y Regina Galvanduque de la firma MYT+GLVDK, tuvieron la tarea de desarrollar el diseño, identidad, branding y merchandising de la marca.<\/p>"
+          }
+        },
+        "template--15897219629113__90ddd19b-7aad-43e1-8654-141dc086e2e5-text-3": {
+          "settings": {
+            "title": "¿Cuál es la filosofía de la marca?",
+            "content": "<p>Mys nace para materializar la experiencia nórdica de calidez y comodidad en una amplia propuesta de productos de bienestar y artículos para el hogar de lujo, inspirados en el placer y el equilibrio de disfrutar de las pequeñas cosas de la vida, como una taza de té, una vista del bosque, un momento de quietud bajo una cálida manta, o la paz de los sonidos de la naturaleza.<\/p>"
+          }
+        }
+      }
+    },
+    "d487443f-dd53-4d11-b5fb-e74764becbe1": {
+      "settings": {
+      },
+      "blocks": {
+        "template--15897219629113__d487443f-dd53-4d11-b5fb-e74764becbe1-heading-1": {
+          "settings": {
+            "heading": "CONTÁCTANOS"
+          }
+        }
+      }
+    },
+    "a1d116b2-6db5-410a-bd33-8b350f19b6a7": {
+      "settings": {
+      },
+      "blocks": {
+        "template--15897219629113__a1d116b2-6db5-410a-bd33-8b350f19b6a7-text-1": {
+          "settings": {
+            "title": "¿A quién contacto para consultas de prensa o redes sociales?",
+            "content": "<p>Para todas las consultas relacionadas con prensa o redes sociales, por favor envíanos un correo electrónico a pr@scape.mx<\/p>"
+          }
+        },
+        "template--15897219629113__a1d116b2-6db5-410a-bd33-8b350f19b6a7-text-2": {
+          "settings": {
+            "title": "¿Con quién me comunico para consultas comerciales?",
+            "content": "<p>Para todas las consultas comerciales, por favor envíanos un correo electrónico a pr@scape.mx<\/p>"
+          }
+        }
+      }
+    },
+    "5a00a5c9-4908-468d-843b-55cc6ae174c1": {
+      "settings": {
+      },
+      "blocks": {
+        "template--15897219629113__5a00a5c9-4908-468d-843b-55cc6ae174c1-collection-1": {
+          "settings": {
+            "text": "Ver productos"
+          }
+        }
+      }
+    }
+  }
+}

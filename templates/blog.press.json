@@ -1,0 +1,129 @@
+{
+  "sections": {
+    "dde12ce7-fc27-48ea-9a1e-99d960b7040c": {
+      "type": "section-hero",
+      "blocks": {
+        "template--15895680843833__dde12ce7-fc27-48ea-9a1e-99d960b7040c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "{{ blog.metafields.custom.blog_title.value }}",
+            "text_size": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--15895680843833__dde12ce7-fc27-48ea-9a1e-99d960b7040c-heading-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/BLOG.png",
+        "height": "use_screen_one_third",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "e1c5de2f-850c-433d-99fb-ff9a52ca3a77": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<br>"
+      }
+    },
+    "main-blog": {
+      "type": "blog",
+      "custom_css": [
+        "h4.blog__heading.text-center {font-family: \"Harmonia Sans\"; text-transform: uppercase; letter-spacing: 3px;}",
+        ".blog__tags.text-center p,a.blog__tag {font-family: var(--TYPE-STACK-NAV) !important; font-style: var(--TYPE-STYLE-NAV) !important; text-transform: var(--FONT-NAV-TRANSFORM) !important; letter-spacing: var(--FONT-NAV-LETTER-SPACING) !important; font-weight: 100;}",
+        "a.blog__tag {text-transform: uppercase !important; letter-spacing: 3px !important;}"
+      ],
+      "settings": {
+        "heading": "",
+        "show_heading": false,
+        "tag_label": "filed under",
+        "tags": true,
+        "text_align": "text-center",
+        "post_grid": 3,
+        "rows": 3,
+        "wh_ratio": 1.7,
+        "show_author": true,
+        "show_tags": true,
+        "show_date": true,
+        "show_preview": true,
+        "show_link": true,
+        "overlay_opacity": 30,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "image_height": "use_screen_one_third",
+        "text_color": "text--white",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "fbefe2d6-8f6b-415d-b6a8-9462d11d60c0": {
+      "type": "section-logos",
+      "blocks": {
+        "template--15904287752249__fbefe2d6-8f6b-415d-b6a8-9462d11d60c0-logo_image-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/elle.png",
+            "link": "",
+            "new_tab": true,
+            "width": 185,
+            "spacing": 50
+          }
+        },
+        "template--15904287752249__fbefe2d6-8f6b-415d-b6a8-9462d11d60c0-logo_image-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/the_happening_0d3b29ba-776e-47b8-9f6f-535fce2f68c5.png",
+            "link": "",
+            "new_tab": true,
+            "width": 185,
+            "spacing": 50
+          }
+        },
+        "template--15904287752249__fbefe2d6-8f6b-415d-b6a8-9462d11d60c0-logo_image-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/design_hunter_bf7cdcc6-d6d7-410e-bde0-c566ad22f49a.png",
+            "link": "",
+            "new_tab": true,
+            "width": 195,
+            "spacing": 50
+          }
+        }
+      },
+      "block_order": [
+        "template--15904287752249__fbefe2d6-8f6b-415d-b6a8-9462d11d60c0-logo_image-1",
+        "template--15904287752249__fbefe2d6-8f6b-415d-b6a8-9462d11d60c0-logo_image-2",
+        "template--15904287752249__fbefe2d6-8f6b-415d-b6a8-9462d11d60c0-logo_image-3"
+      ],
+      "custom_css": [
+        "h2 {font-size: 2.2em; letter-spacing: 3px;}"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "enable_marquee": false,
+        "marquee_speed": 30,
+        "width": "wrapper--none",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "dde12ce7-fc27-48ea-9a1e-99d960b7040c",
+    "e1c5de2f-850c-433d-99fb-ff9a52ca3a77",
+    "main-blog",
+    "fbefe2d6-8f6b-415d-b6a8-9462d11d60c0"
+  ]
+}

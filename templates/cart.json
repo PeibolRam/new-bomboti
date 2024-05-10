@@ -1,0 +1,44 @@
+{
+  "sections": {
+    "7bb568f9-b5cf-4420-9bdb-ee90751daead": {
+      "type": "section-gallery-text",
+      "blocks": {
+        "template--15914956390457__7bb568f9-b5cf-4420-9bdb-ee90751daead-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "Al realizar tu compra aceptas los Términos y Cóndiciones de Mys",
+            "title_size": 3,
+            "text": "",
+            "body_size": 4,
+            "text_align": "text-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--15914956390457__7bb568f9-b5cf-4420-9bdb-ee90751daead-text-1"
+      ],
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "grid_large": 1,
+        "grid_medium": 1,
+        "grid_mobile": 1,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "cart",
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "7bb568f9-b5cf-4420-9bdb-ee90751daead",
+    "main"
+  ]
+}

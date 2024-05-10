@@ -1,0 +1,190 @@
+<!-- /sections/section-new-blog.liquid -->
+{%- liquid
+  assign blog = blogs[section.settings.homepage_blog]
+-%}
+
+<div
+  class="section-new-blog section-{{ section.id }} {{ section.settings.bg }}"
+  style="--PT: {{ section.settings.padding_top }}px; --PB: {{ section.settings.padding_bottom }}px;">
+  <div class="{{ section.settings.width }} section-padding" data-wrapper>
+      {% unless section.settings.title == '' %}
+        <h2 class="kicker-flourished mb-7">{{ section.settings.title | escape }}</h2>
+      {% endunless %}
+        <div class="new-blog-container">
+
+          {% for article in blog.articles %}
+            <div class="grid_new_item" data-item>
+              <div class="new-post-article-item">
+                <div class="new-post-article-item-img">
+                  {%- render 'image', cover: true, img_object: article.image, wh_ratio: wh_ratio, alt_default: article.title, sizes: sizes, srcset: srcset, loading: 'lazy' -%}
+                </div>
+                <div class="article__item-content">
+                  {% assign has_tags = false %}
+                  {% if article.tags.size > 0 and show_tags %}
+                    {% assign has_tags = true %}
+                  {% endif %}
+              
+                  {% if has_tags or section.settings.show_date %}
+                    <div class="article__item-meta">
+                      {% if has_tags %}
+                        {% for tag in article.tags %}
+                          <span class="article__item-tag">{{tag}}</span>
+                        {% endfor %}
+                      {% endif %}
+              
+                      {% if section.settings.show_date %}
+                        <span class="article__item-date">
+                          <time>{{ article.published_at | date: format: 'month_day_year' }}</time>
+                        </span>
+                      {% endif %}
+                    </div>
+                  {% endif %}
+              
+                  <h3 class="article__item-title heading-size-6 mb-0">
+                    <a href="{{ article.url }}">{{ article.title }}</a>
+                  </h3>
+              
+                  {% if section.settings.show_author %}
+                    <div class="article__item-author">
+                      {% if article.user.image %}
+                        <span class="article__item-avatar">
+                          <img src="{{ article.user.image | img_url: 'master' }}" alt="{{ article.author }}">
+                        </span>
+                      {% endif %}
+              
+                      <span>
+                        {{ 'blogs.article.by' | t }} {{ article.author }}
+                      </span>
+                    </div>
+                  {% endif %}
+              
+                  {% if section.settings.show_preview and article.excerpt_or_content != blank %}
+                    <div class="rte body-size-4">
+                      <p>{{ article.excerpt_or_content | strip_html | truncatewords: 25 }}</p>
+                    </div>
+                  {% endif %}
+              
+                  {% if section.settings.show_link %}
+                    <a href="{{ article.url }}" class="text-link">{{ 'blogs.article.read_more' | t }}</a>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "New section posts",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "News"
+    },
+    {
+      "type": "blog",
+      "id": "homepage_blog",
+      "label": "Blog"
+    },
+    {
+      "type": "header",
+      "content": "Article"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_author",
+      "label": "Show author",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_tags",
+      "label": "Show tags",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_date",
+      "label": "Show date",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_preview",
+      "label": "Show article excerpt",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_link",
+      "label": "Show read more link",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "select",
+      "id": "bg",
+      "label": "Background color",
+      "default": "palette--light bg--neutral",
+      "options": [
+        { "value": "palette--light bg--neutral", "label": "Default"},
+        { "value": "palette--light bg--accent", "label": "Light"},
+        { "value": "palette--dark bg--invert", "label": "Dark"},
+        { "value": "palette--dark bg--invert--accent", "label": "Dark accent"},
+        { "value": "palette--bright bg--bright", "label": "Bright"},
+        { "value": "palette--bright bg--bright--accent", "label": "Bright accent"}
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Section spacing"
+    },
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "wrapper",
+      "options": [
+        { "value": "wrapper--full", "label": "Full width padded" },
+        { "value": "wrapper", "label": "Page width" },
+        { "value": "wrapper--narrow", "label": "Page width narrow" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 180,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 180,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 36
+    }
+  ],
+  "presets": [
+    {
+      "name": "New section posts",
+      "category": "Text"
+    }
+  ],
+  "disabled_on": {
+    "groups": ["header","footer","aside"]
+  }
+}
+{% endschema %}

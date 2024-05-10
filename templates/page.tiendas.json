@@ -1,0 +1,280 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "custom_css": [
+        "h2 {text-align: center; text-transform: uppercase; font-weight: 100; letter-spacing: 3px;}",
+        ".wrapper {width: 80%;}",
+        "@media only screen and (min-width: 600px) {.text__standard.text-left {margin: 30px 0 70px 0; }}"
+      ],
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 7,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_richtext_CqBw4K": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_WDfHmn": {
+          "type": "heading",
+          "settings": {
+            "heading": "TIENDAS",
+            "text_size": 8
+          }
+        },
+        "text_BjHpdL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Queremos estar más cerca de ti por lo que estams expadiedo nuestros horizontes para que puedas vivir la exeriencia de Mys de la mano de nuestros colaboradores.<\/p><p><\/p><p>Visitanos en las siguientes tiendas:<\/p>",
+            "text_size": 6,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "heading_WDfHmn",
+        "text_BjHpdL"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_double_MicDYK": {
+      "type": "section-double",
+      "blocks": {
+        "text_VJaYCX": {
+          "type": "text",
+          "settings": {
+            "kicker": "BOMBOTI",
+            "title": "",
+            "text": "<p>La mancuerna formada por <strong>Regina Galvanduque <\/strong>y <strong>Andrés Mier y Terán <\/strong>de la firma MYT+GLVDK, desarrolladores del diseño, identidad, branding y merchandising de la marca.  Han desarrollado con su despacho multidisciplinario BOMBOTI un espacio de diálogo y experimentación entre arte, artesanía y diseño.  <\/p><p>Visitanos en:<\/p><h6><a href=\"https:\/\/maps.app.goo.gl\/D3nHGAhoqNeHrg8D8\" target=\"_blank\" title=\"BOMBOTI\">Hegel 232 Polanco CDMX<\/a><\/h6>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "image_VFYTBU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bomboti__352577920_1004056267671784_809209800380075031_n.jpg",
+            "overlay_opacity": 5,
+            "overlay_color": "#000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "text_VJaYCX",
+        "image_VFYTBU"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_double_WLrTDe": {
+      "type": "section-double",
+      "blocks": {
+        "image_c6HccX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2Z0A9663_websize.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "text_mWnQLQ": {
+          "type": "text",
+          "settings": {
+            "kicker": "OLIVINE",
+            "title": "",
+            "text": "<p>Nuestra Beauty Concept Store favorita. <\/p><p><\/p><p>Tiene una de las mejores marcas internacionales de culto y <em>clean beauty <\/em>para embellecer, cuidar y optimizar la salud de tu piel, cuerpo y cabello.<\/p><p>Encuentrans en: <\/p><h6><a href=\"https:\/\/maps.app.goo.gl\/gGkbfmeZDfYTfP4v5\" target=\"_blank\" title=\"OLIVINE\">Emilio Castelar 149, Local 13  Polanco, CDMX.<\/a><\/h6>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_c6HccX",
+        "text_mWnQLQ"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_double_PDtXf4": {
+      "type": "section-double",
+      "blocks": {
+        "text_xDnyPB": {
+          "type": "text",
+          "settings": {
+            "kicker": "QUIMERA",
+            "title": "",
+            "text": "<p>Un espacio <em>One Stop Shop <\/em>donde encuentras todo lo que más te gusta en un mismo lugar. <\/p><p>Su motor es conectarte contigo mismo y con  los que más amas a través de  un arreglo de flores, una vela, un chocolate o un momento “ordinario” como lo es tomar  café en tu taza favorita y así recordarte que siempre es un buen momento para sonreír y disfrutar.<\/p><p><\/p><p>Encuetranos en:<\/p><h6><a href=\"https:\/\/maps.app.goo.gl\/v54xXYdSeKHm3ePKA\" target=\"_blank\" title=\"QUIMERA\">Av Cerro Gordo 602, Valle del Campestre, León, Gto.<\/a><\/h6>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "image_cBPnzJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/quimerapl_414829363_18292069096159890_5336406079163573024_n.jpg",
+            "overlay_opacity": 5,
+            "overlay_color": "#000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "text_xDnyPB",
+        "image_cBPnzJ"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_double_LGBPFR": {
+      "type": "section-double",
+      "blocks": {
+        "image_Ea3JNn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/empathy_store_397125610_18399334660047251_8462832785735659720_n.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "text_97HfRq": {
+          "type": "text",
+          "settings": {
+            "kicker": "Empathy Store",
+            "title": "",
+            "text": "<p>Es una boutique donde la moda, el arte y la decoración conviven en un mismo espacio. Una colección de las ideas de la gente, ideas MEXICANAS .<\/p><p><\/p><p>Encuentranos en:<\/p><h6><a href=\"https:\/\/maps.app.goo.gl\/oFfYBp83jSee2CDz9\" target=\"_blank\" title=\"EMPATHY\">Av Montevideo 3181, Providencia, Guadalajara, Jal., México<\/a><\/h6>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Ea3JNn",
+        "text_97HfRq"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_richtext_CqBw4K",
+    "section_double_MicDYK",
+    "section_double_WLrTDe",
+    "section_double_PDtXf4",
+    "section_double_LGBPFR"
+  ]
+}

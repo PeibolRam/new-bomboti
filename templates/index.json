@@ -1,0 +1,1184 @@
+{
+  "sections": {
+    "a64c0602-8f76-4684-a1c1-5a5309b710bb": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<br>"
+      }
+    },
+    "section_video_RiaQBN": {
+      "type": "section-video",
+      "blocks": {
+        "heading_CYehwe": {
+          "type": "heading",
+          "settings": {
+            "title": "Discover your signature scent",
+            "text_size": 10
+          }
+        },
+        "text_CEBQje": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Elevate your fragrance game effortlessly. <\/p>",
+            "text_size": 6
+          }
+        },
+        "button_8zNXea": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "View products",
+            "link_1": "shopify:\/\/collections\/perfume-oil",
+            "button_size_1": "btn--medium",
+            "button_style_1": "btn--outline",
+            "button_color_1": "btn--white",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CYehwe",
+        "text_CEBQje",
+        "button_8zNXea"
+      ],
+      "settings": {
+        "height": "use_screen_two_thirds",
+        "color_bg": "palette--light bg--neutral",
+        "video_bg": "shopify:\/\/files\/videos\/IMG_5856_e4cb5617-2f52-4a29-b74e-53daa0b909de.mov",
+        "object_position": "center-center",
+        "preload_image": false,
+        "text_align": "align--middle-left",
+        "text_color": "text--white",
+        "overlay_opacity": 15,
+        "overlay_color": "#000",
+        "enable_overlay_text": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "7f4887fa-85a8-4f9a-b0e9-875e9e65a569": {
+      "type": "section-slideshow",
+      "blocks": {
+        "a12b1044-5344-4997-aeac-5b2afcc1d353": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-Desktop-Dia_Madres.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Banner-Movil-DiaMadres.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "https:\/\/myswellness.com\/collections\/kits-de-regalo",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "template--15895681204281__7f4887fa-85a8-4f9a-b0e9-875e9e65a569-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-Desktop-Spring.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Banner-Movil-Spring.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--bottom-left",
+            "text_color": "text--neutral",
+            "link_text": "",
+            "link": "shopify:\/\/collections\/spring-var",
+            "button_color": "btn--secondary",
+            "button_style": "btn--outline"
+          }
+        },
+        "ed56d591-751f-4577-9602-8878e73c2dd8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-Desktop-PerfumeOil.png",
+            "mobile_image": "shopify:\/\/shop_images\/Banner-Movil-PerfumeOil.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "shopify:\/\/collections\/all",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "d6a441a4-51d1-4022-8d4a-0316c2266e85": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner_Home_2_DKT.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Banner_Home_2_e9ec9f1a-adee-4043-99fb-6d976d9ab4b5.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--bottom-center",
+            "text_color": "text--white",
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--outline"
+          }
+        },
+        "3fae347d-b7b9-4dc0-88e7-bf57fd5de91a": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_8-100.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Banners-Mys-BuenFin-Movil.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "shopify:\/\/collections\/all",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "133124fc-efc2-44b4-b544-406bc7d52053": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_11-100.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Banners-Mys-BuenFin-2.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "shopify:\/\/collections\/all",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "dc02ac6a-f484-486a-927d-72697362868c": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-Desktop-CyberMonday.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Banner-Movil-CyberMonday.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "shopify:\/\/products\/kit-jabon-y-crema-fall-host",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "0a7935a6-21b8-432d-b9fc-de7bbcbe7cc8": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_3-100.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Artboard_6.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "shopify:\/\/collections\/all",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "a12b1044-5344-4997-aeac-5b2afcc1d353",
+        "template--15895681204281__7f4887fa-85a8-4f9a-b0e9-875e9e65a569-image-1",
+        "ed56d591-751f-4577-9602-8878e73c2dd8",
+        "d6a441a4-51d1-4022-8d4a-0316c2266e85",
+        "3fae347d-b7b9-4dc0-88e7-bf57fd5de91a",
+        "133124fc-efc2-44b4-b544-406bc7d52053",
+        "dc02ac6a-f484-486a-927d-72697362868c",
+        "0a7935a6-21b8-432d-b9fc-de7bbcbe7cc8"
+      ],
+      "disabled": true,
+      "settings": {
+        "autoplay": true,
+        "autoplay_speed": 10,
+        "preload_first_image": false,
+        "height": "use_image",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16f582bc-e0cd-4f91-b5ed-bb0e89d995e1": {
+      "type": "carrusel",
+      "blocks": {
+        "ee0d6fa2-7863-4606-92ad-b4114a94d714": {
+          "type": "category_slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/difusser_06b2b23c-7aa1-4aaf-b69a-1a57e5f9ce0e.png",
+            "title": "Essential oils",
+            "link": "shopify:\/\/collections\/essential-oil"
+          }
+        },
+        "b25fd10f-efcd-4008-8cda-8cf380e4f4e8": {
+          "type": "category_slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/difusser_06b2b23c-7aa1-4aaf-b69a-1a57e5f9ce0e.png",
+            "title": "Electric Diffusers",
+            "link": "shopify:\/\/collections\/electric-diffusers"
+          }
+        },
+        "7c1b2c87-5ada-439a-8511-44b8420e9af1": {
+          "type": "category_slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/XLHomeCandleWINTER_VINTER1_eba2bb43-11ab-4da7-b4c4-423eec1c2a63.png",
+            "title": "XXL CANDLES",
+            "link": "shopify:\/\/collections\/vela-para-el-hogar-xxl"
+          }
+        },
+        "ebe2ba2c-4ae6-4484-808a-47751a2211f8": {
+          "type": "category_slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/candles_c99103b4-dcac-471f-810c-54282371696e.png",
+            "title": "Candles",
+            "link": "shopify:\/\/collections\/candles"
+          }
+        },
+        "d82e4000-6460-4265-89d6-a90b6170ce71": {
+          "type": "category_slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/skin_care_ba50be42-e888-4439-9dc3-c56aa425d891.png",
+            "title": "Skin & body",
+            "link": "shopify:\/\/collections\/hand-wash-hand-lotion"
+          }
+        }
+      },
+      "block_order": [
+        "ee0d6fa2-7863-4606-92ad-b4114a94d714",
+        "b25fd10f-efcd-4008-8cda-8cf380e4f4e8",
+        "7c1b2c87-5ada-439a-8511-44b8420e9af1",
+        "ebe2ba2c-4ae6-4484-808a-47751a2211f8",
+        "d82e4000-6460-4265-89d6-a90b6170ce71"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Carrusel"
+      }
+    },
+    "9889bf9a-ac42-4c91-a2ac-88177c589f39": {
+      "type": "image-carrusel",
+      "disabled": true,
+      "custom_css": [
+        ".category-carousel-wrapper::-webkit-scrollbar {width: 6px !important; background-color: #f5f5f5 !important;}",
+        ".category-carousel-wrapper::-webkit-scrollbar-thumb {background-color: #9bae88 !important;}",
+        ".category-carousel-wrapper::-webkit-scrollbar-thumb:hover {background-color: #00cc00 !important;}"
+      ],
+      "settings": {
+      }
+    },
+    "2d72a8fc-b91b-4e75-b6d4-3f72e4663d88": {
+      "type": "section-hero",
+      "blocks": {
+        "template--15914956718137__2d72a8fc-b91b-4e75-b6d4-3f72e4663d88-kicker-1": {
+          "type": "kicker",
+          "disabled": true,
+          "settings": {
+            "kicker": "Introducing",
+            "enable_line": false,
+            "text_size": 4
+          }
+        },
+        "template--15914956718137__2d72a8fc-b91b-4e75-b6d4-3f72e4663d88-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Image banner",
+            "text_size": 10
+          }
+        },
+        "template--15914956718137__2d72a8fc-b91b-4e75-b6d4-3f72e4663d88-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "richtext": "<p>This area is used to describe your store.<\/p>",
+            "text_size": 6
+          }
+        },
+        "template--15914956718137__2d72a8fc-b91b-4e75-b6d4-3f72e4663d88-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_text_1": "View products",
+            "link_1": "",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn",
+            "button_color_1": "btn--white",
+            "link_text_2": "Learn more",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--15914956718137__2d72a8fc-b91b-4e75-b6d4-3f72e4663d88-kicker-1",
+        "template--15914956718137__2d72a8fc-b91b-4e75-b6d4-3f72e4663d88-heading-1",
+        "template--15914956718137__2d72a8fc-b91b-4e75-b6d4-3f72e4663d88-text-1",
+        "template--15914956718137__2d72a8fc-b91b-4e75-b6d4-3f72e4663d88-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Mys_banner-10_.02_96af8a24-3646-418a-9316-a9db7bee6530.png",
+        "mobile_image": "shopify:\/\/shop_images\/Mys_banner-10__mobile.png",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 100,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "31291fb7-7a00-4e0d-915f-4ab08b56bfd4": {
+      "type": "section-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<br>\n<br>\n<br>"
+      }
+    },
+    "fd198fb0-16b2-4ce4-b0f8-4882e7e6978c": {
+      "type": "section-richtext",
+      "blocks": {
+        "d8804463-9d56-4355-80ba-eb8c7b0d1963": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "[MYS] N. OF SWEDISH ORIGIN.",
+            "enable_line": false,
+            "text_size": 7
+          }
+        },
+        "template--15888697131065__fd198fb0-16b2-4ce4-b0f8-4882e7e6978c-1688287796222337a7-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "[my s] N. Of swedish origin.",
+            "text_size": 6
+          }
+        },
+        "2041748f-27e6-49f7-a72e-2999a9e59ce2": {
+          "type": "heading",
+          "settings": {
+            "heading": "A NEW PROPOSAL OF WELLNESS & HOME GOODS PRODUCTS INSPIRED BY THE NORDIC INTERPRETATION OF COMFORT, RELAXATION, AND WARMTH.",
+            "text_size": 5
+          }
+        },
+        "46b010fb-b318-4ccc-9228-c12aded0ebe4": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ornament.png",
+            "image_max_limit": 355,
+            "link": ""
+          }
+        },
+        "b8e34297-662d-468c-9b5a-ec690636b9d2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ornament-2.png",
+            "image_max_limit": 355,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "d8804463-9d56-4355-80ba-eb8c7b0d1963",
+        "template--15888697131065__fd198fb0-16b2-4ce4-b0f8-4882e7e6978c-1688287796222337a7-1",
+        "2041748f-27e6-49f7-a72e-2999a9e59ce2",
+        "46b010fb-b318-4ccc-9228-c12aded0ebe4",
+        "b8e34297-662d-468c-9b5a-ec690636b9d2"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".standard__kicker.accent-size-7.aos-init.aos-animate,p {font-family: var(--FONT-STACK-ACCENT); font-weight: ligh; color: currentcolor; letter-spacing: 3px;}",
+        ".standard__heading {\/*font-family: inherit !important; color: #9caf89;*\/}",
+        ".standard__image.aos-init.aos-animate {position: absolute; right: 0px; margin-top: -110px;}",
+        ".standard__image.aos-init.aos-animate:nth-child(2n) {position: absolute; left: -96vw; margin-top: -84px;}",
+        "img {opacity: 0.1;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 700,
+        "width": "wrapper",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "1a18540b-f57a-4072-87df-6fc61fdf9fe6": {
+      "type": "productos",
+      "blocks": {
+        "template--15895681204281__1a18540b-f57a-4072-87df-6fc61fdf9fe6-1689713423381e24c5-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "mys",
+            "title": "",
+            "link_text": "",
+            "enable_item": true,
+            "text": "Ver todos",
+            "background_color": "rgba(0,0,0,0)",
+            "text_color": "text--neutral",
+            "link_size": 6
+          }
+        }
+      },
+      "block_order": [
+        "template--15895681204281__1a18540b-f57a-4072-87df-6fc61fdf9fe6-1689713423381e24c5-0"
+      ],
+      "custom_css": [
+        ".text-btn-arrow-right.accent-size-6 {font-size: 1.2em;}"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "grid": 5,
+        "rows": 1,
+        "enable_scroll_mobile": true,
+        "grid_small": 1.8,
+        "width": "wrapper",
+        "padding_top": 56,
+        "padding_bottom": 36
+      }
+    },
+    "6417d1f6-306d-4a61-a61d-1bff54a34aa3": {
+      "type": "collection-split",
+      "settings": {
+        "collection": "fall-host-1",
+        "product_list": [
+
+        ],
+        "image": "shopify:\/\/shop_images\/Fall_5806dc50-bbef-4da6-98a2-c5a94942c6d2.png",
+        "mobile_image": "shopify:\/\/shop_images\/Fall_1.png",
+        "sticky_image_enable": true,
+        "swap": false,
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "kicker": "This season",
+        "heading": "FALL · HØST",
+        "text_color": "text--white",
+        "link_text": "Ver productos",
+        "link": "shopify:\/\/collections\/fall-host-1",
+        "button_color": "btn--white",
+        "button_style": "btn--outline",
+        "grid_large": 2,
+        "grid_small": 1.2,
+        "limit": 4,
+        "bg": "palette--light bg--neutral",
+        "object_position": "center-center",
+        "width": "wrapper--none",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "39effaf9-e71a-424d-8967-9e5b4b23f77e": {
+      "type": "collection-split",
+      "settings": {
+        "collection": "winter-vinter",
+        "product_list": [
+
+        ],
+        "image": "shopify:\/\/shop_images\/Winter_7eccabfc-98b0-4f01-a7f8-a321e583fb87.png",
+        "mobile_image": "shopify:\/\/shop_images\/Winter_1.png",
+        "sticky_image_enable": true,
+        "swap": true,
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "kicker": "Introducing",
+        "heading": "WINTER · VINTER",
+        "text_color": "text--white",
+        "link_text": "Ver productos",
+        "link": "shopify:\/\/collections\/winter-vinter",
+        "button_color": "btn--white",
+        "button_style": "btn--outline",
+        "grid_large": 2,
+        "grid_small": 1.2,
+        "limit": 4,
+        "bg": "palette--light bg--neutral",
+        "object_position": "center-center",
+        "width": "wrapper--none",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0ed707c0-9a8c-4337-9e63-54e771bfd609": {
+      "type": "section-slideshow",
+      "blocks": {
+        "template--15886704181305__0ed707c0-9a8c-4337-9e63-54e771bfd609-16878167148cc19d5e-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hero_banner_desktop_b4fcf209-d48d-4dcd-92ac-6a4078d46b3e.png",
+            "mobile_image": "shopify:\/\/shop_images\/hero_banner_mobile_d8c03e50-47d5-42b6-8988-dbc0e7b33322.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#9caf89",
+            "enable_overlay_text": false,
+            "kicker": "HOMEGOODS & WELLNESS",
+            "title": "Shine in nature",
+            "richtext": "<p>Materializa la experiencia nórdica de bienestar, calidez y comodidad en una amplia propuesta de productos de lujo.<\/p>",
+            "text_align": "align--middle-left",
+            "text_color": "text--primary",
+            "link_text": "VER PRODUCTOS",
+            "link": "shopify:\/\/collections\/mys",
+            "button_color": "btn--primary",
+            "button_style": "btn"
+          }
+        },
+        "template--15886704181305__0ed707c0-9a8c-4337-9e63-54e771bfd609-16878167148cc19d5e-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner_-_1_0d2670eb-94aa-475c-83aa-bea5c636e3d4.png",
+            "mobile_image": "shopify:\/\/shop_images\/hero_banner_mobile_2.png",
+            "overlay_opacity": 25,
+            "overlay_color": "#000000",
+            "enable_overlay_text": true,
+            "kicker": "ENERGIZING",
+            "title": "SPRING · VÅR",
+            "richtext": "<p>La combinación de bergamota, maderas verdes y moras da la sensación de que se avecinan días más luminosos.<\/p>",
+            "text_align": "align--middle-center",
+            "text_color": "text--neutral",
+            "link_text": "Comprar ahora",
+            "link": "shopify:\/\/collections\/spring-var",
+            "button_color": "btn--primary",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "template--15886704181305__0ed707c0-9a8c-4337-9e63-54e771bfd609-16878167148cc19d5e-0",
+        "template--15886704181305__0ed707c0-9a8c-4337-9e63-54e771bfd609-16878167148cc19d5e-1"
+      ],
+      "custom_css": [
+        "h1.hero__title.heading-size-9.aos-init.aos-animate {font-size: 6em;}",
+        "h1.hero__title.heading-size-9.aos-init.aos-animate {font-family: \"Playfair Display\" !important; line-height: 1em; color: #9caf89;}"
+      ],
+      "settings": {
+        "autoplay": true,
+        "autoplay_speed": 8,
+        "preload_first_image": true,
+        "height": "use_image",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "8e43faaa-b22a-4b3e-8727-4fce8c4d4678": {
+      "type": "mys-reviews",
+      "settings": {
+        "title": "Reviews",
+        "star_color": "#9bae88",
+        "size": 15,
+        "back_color": "#ffffff",
+        "text_color": "#ffffff",
+        "size_text": 18,
+        "max_reviews": 10,
+        "image": "3",
+        "content_padding": 22,
+        "max_width": 1560
+      }
+    },
+    "bcd83b77-96df-4970-aa6c-ace6c72b8b75": {
+      "type": "section-list-collections",
+      "blocks": {
+        "template--15888697131065__bcd83b77-96df-4970-aa6c-ace6c72b8b75-1688286737a3ca7ef6-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "spring-var",
+            "image": "shopify:\/\/shop_images\/Spring_092863bd-a956-4c46-992f-34d724574928.png",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "text_color": "text--white"
+          }
+        },
+        "template--15888697131065__bcd83b77-96df-4970-aa6c-ace6c72b8b75-1688286737a3ca7ef6-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "summer-sommar",
+            "image": "shopify:\/\/shop_images\/Summer_a85fc9b9-033a-4e7f-a1a0-597e4abeeff1.png",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "text_color": "text--white"
+          }
+        },
+        "3cac3f33-a41a-4ce5-99de-cd7f727e4c08": {
+          "type": "collection",
+          "settings": {
+            "collection": "fall-host-1",
+            "image": "shopify:\/\/shop_images\/Fall_5806dc50-bbef-4da6-98a2-c5a94942c6d2.png",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "text_color": "text--white"
+          }
+        },
+        "26b4daa4-0def-42ed-bf75-b2375fd7254e": {
+          "type": "collection",
+          "settings": {
+            "collection": "winter-vinter",
+            "image": "shopify:\/\/shop_images\/Winter_7eccabfc-98b0-4f01-a7f8-a321e583fb87.png",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "text_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--15888697131065__bcd83b77-96df-4970-aa6c-ace6c72b8b75-1688286737a3ca7ef6-0",
+        "template--15888697131065__bcd83b77-96df-4970-aa6c-ace6c72b8b75-1688286737a3ca7ef6-1",
+        "3cac3f33-a41a-4ce5-99de-cd7f727e4c08",
+        "26b4daa4-0def-42ed-bf75-b2375fd7254e"
+      ],
+      "custom_css": [
+        "h2.kicker-flourished.mb-7 {font-size: 2em; font-weight: 200; letter-spacing: 3px;}",
+        "[data-grid]:not([data-grid-no-gutters]) [data-item] {padding: 10px 5px;}"
+      ],
+      "settings": {
+        "title": "COMPRA POR COLECCIÓN",
+        "bg": "palette--light bg--neutral",
+        "enable_carousel": true,
+        "progress_bar": "hidden",
+        "wh_ratio": 0.7,
+        "grid_large": 4,
+        "grid_medium": 2,
+        "grid_mobile": 1.2,
+        "font_family": "body",
+        "title_size": 7,
+        "accent_size": 3,
+        "width": "wrapper--full",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "f4209bc7-8d0f-4870-b44d-6bff2013abaa": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--15886704181305__f4209bc7-8d0f-4870-b44d-6bff2013abaa-1687824504c083bc84-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "\"ABSOLUTELY UNPARALLELED PRODUCTS AND SERVICE. I'M CONFIDENT THAT THIS STORE WILL BE THE NEXT BIG THING IN ITS INDUSTRY, AND THAT ITS PRODUCTS WILL BE TIMELESS.\"",
+            "text_size": 5
+          }
+        },
+        "template--15886704181305__f4209bc7-8d0f-4870-b44d-6bff2013abaa-1687824504c083bc84-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>- Steve Jordans<\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "template--15886704181305__f4209bc7-8d0f-4870-b44d-6bff2013abaa-1687824504c083bc84-1",
+        "template--15886704181305__f4209bc7-8d0f-4870-b44d-6bff2013abaa-1687824504c083bc84-2"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "p {font-family: var(--FONT-STACK-ACCENT); font-weight: ligh;}",
+        ".standard__kicker.accent-size-7.aos-init.aos-animate,p {font-family: var(--FONT-STACK-ACCENT); font-weight: ligh; color: currentcolor; letter-spacing: 3px;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--invert--primary",
+        "bg": "palette--light bg--neutral",
+        "content_width": 750,
+        "width": "wrapper--full",
+        "padding_top": 40,
+        "padding_bottom": 80
+      }
+    },
+    "10056f86-a47f-4b47-accb-4e940fa866be": {
+      "type": "section-html",
+      "settings": {
+        "html": "<br>",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "bf145752-4145-4b7e-bb8d-de9f73cdb649": {
+      "type": "collections-2",
+      "blocks": {
+        "template--15895681204281__bf145752-4145-4b7e-bb8d-de9f73cdb649-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "essential-oil",
+            "image": "shopify:\/\/shop_images\/c1.png",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "text_color": "text--white"
+          }
+        },
+        "template--15895681204281__bf145752-4145-4b7e-bb8d-de9f73cdb649-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "kits",
+            "image": "shopify:\/\/shop_images\/kits.png",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "text_color": "text--white"
+          }
+        },
+        "299d5fe6-98f8-47e8-b653-e6d862cfc95c": {
+          "type": "collection",
+          "settings": {
+            "collection": "hand-wash-hand-lotion",
+            "image": "shopify:\/\/shop_images\/skin.png",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "text_color": "text--white"
+          }
+        },
+        "6ee5d90d-2aa2-4fb6-85b2-432dbfaac1d1": {
+          "type": "collection",
+          "settings": {
+            "collection": "candles",
+            "image": "shopify:\/\/shop_images\/candles-general.png",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "text_color": "text--white"
+          }
+        },
+        "80f98ae7-9c24-4906-8b7d-0cf5fd3f5c58": {
+          "type": "collection",
+          "settings": {
+            "collection": "vela-para-el-hogar-xxl",
+            "image": "shopify:\/\/shop_images\/candles_xl.png",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "text_color": "text--white"
+          }
+        },
+        "3fa6af3f-21ca-4ce8-a184-dcc8fea1b655": {
+          "type": "collection",
+          "settings": {
+            "collection": "self-care-gifts",
+            "image": "shopify:\/\/shop_images\/self_care_gifts.png",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "text_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--15895681204281__bf145752-4145-4b7e-bb8d-de9f73cdb649-collection-1",
+        "template--15895681204281__bf145752-4145-4b7e-bb8d-de9f73cdb649-collection-2",
+        "299d5fe6-98f8-47e8-b653-e6d862cfc95c",
+        "6ee5d90d-2aa2-4fb6-85b2-432dbfaac1d1",
+        "80f98ae7-9c24-4906-8b7d-0cf5fd3f5c58",
+        "3fa6af3f-21ca-4ce8-a184-dcc8fea1b655"
+      ],
+      "custom_css": [
+        "p.collection-grid-item__title.heading-size-7 {text-transform: uppercase;}"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "enable_carousel": true,
+        "progress_bar": "mobile",
+        "wh_ratio": 1.5,
+        "grid_large": 2,
+        "grid_medium": 2,
+        "grid_mobile": 1.2,
+        "font_family": "heading",
+        "title_size": 7,
+        "accent_size": 3,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16897189979c127eb9": {
+      "type": "apps",
+      "blocks": {
+        "604d0dbc-f173-41b2-a6ef-1c2100a566a1": {
+          "type": "shopify:\/\/apps\/revie-reviews-por-whatsapp\/blocks\/app-block-3\/32a49769-cfbe-4f29-8b19-1ae20fdb2abe",
+          "settings": {
+            "title": "Reviews",
+            "format": "1",
+            "title_color": "#000000",
+            "title_size": 24,
+            "title_pos": "flex-start",
+            "star_color": "#9bae88",
+            "size": 15,
+            "back_color": "#ffffff",
+            "text_color": "#9bae88",
+            "size_text": 15,
+            "name": "1",
+            "truncate": "1",
+            "max_reviews": 20,
+            "image": "1",
+            "from": "1",
+            "width_elements": 4,
+            "content_padding": 22,
+            "max_width": 900
+          }
+        }
+      },
+      "block_order": [
+        "604d0dbc-f173-41b2-a6ef-1c2100a566a1"
+      ],
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1689795010f3c58685": {
+      "type": "apps",
+      "blocks": {
+        "2d4621d0-5cb2-4e2f-9a62-33eef8078653": {
+          "type": "shopify:\/\/apps\/maestrooo-section-feed\/blocks\/app-block\/43cd482b-515a-4e82-b170-05d391763cd2",
+          "settings": {
+            "title": "SIGUENOS EN INSTAGRAM",
+            "subheading": "",
+            "button_text": "",
+            "button_link": "",
+            "layout": "collage",
+            "image_size": "large",
+            "add_spacing": true,
+            "rows_count": 1,
+            "show_author": false,
+            "show_caption": true,
+            "show_date": true,
+            "click_action": "open_instagram",
+            "heading_color": "#000000",
+            "subheading_color": "#000000",
+            "button_background": "#000000",
+            "button_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_text_color": "#ffffff",
+            "overlay_opacity": 65
+          }
+        }
+      },
+      "block_order": [
+        "2d4621d0-5cb2-4e2f-9a62-33eef8078653"
+      ],
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "bc01aab7-a343-4c45-9edc-0efefbc34afd": {
+      "type": "testimonials",
+      "blocks": {
+        "template--15895681204281__bc01aab7-a343-4c45-9edc-0efefbc34afd-quote-1": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>\"El difusor es tan bello como funcional, su luz ambiental de brillo suave lo convierte en el aliado perfecto para traer calma a tus espacios\"<\/p>",
+            "author": "Chantal Tru",
+            "link": "#"
+          }
+        },
+        "template--15895681204281__bc01aab7-a343-4c45-9edc-0efefbc34afd-quote-2": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>\"Amé toda la colección, ¡está preciosa!\"<\/p>",
+            "author": "Chantal Tru",
+            "link": ""
+          }
+        },
+        "template--15895681204281__bc01aab7-a343-4c45-9edc-0efefbc34afd-quote-3": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>\"Son el mejor apapacho\"<\/p>",
+            "author": "Paulina Goto",
+            "link": ""
+          }
+        },
+        "e77ef241-8619-4e9c-947c-a2f3e96c8152": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>\"Bravo Mys por esta colaboración con un equipo tan padre y talentoso\"<\/p>",
+            "author": "María Fernanda Sela, Elle Decor",
+            "link": "",
+            "image": "shopify:\/\/shop_images\/elle.png"
+          }
+        },
+        "e3cf4bc3-ebe8-4ba6-a2f6-661c81cb451c": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>\"Los productos son una delicia, sobretodo el aroma Fall, me encantó\"<\/p>",
+            "author": "Fernanda Gordillo, Design Hunter",
+            "link": "",
+            "image": "shopify:\/\/shop_images\/design_hunter_bf7cdcc6-d6d7-410e-bde0-c566ad22f49a.png"
+          }
+        },
+        "a37b82af-0a9d-4c16-a70f-fb597d5a8d7c": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>\"Una propuesta diferente y con mucho corazón que simplemente no puedes perderte si eres fan de conectar a través de los aromas\"<\/p>",
+            "author": "The Happening",
+            "link": "",
+            "image": "shopify:\/\/shop_images\/the_happening_0d3b29ba-776e-47b8-9f6f-535fce2f68c5.png"
+          }
+        },
+        "aea2a897-5bcf-41cd-86bf-1c06360ff4fd": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author’s name",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15895681204281__bc01aab7-a343-4c45-9edc-0efefbc34afd-quote-1",
+        "template--15895681204281__bc01aab7-a343-4c45-9edc-0efefbc34afd-quote-2",
+        "template--15895681204281__bc01aab7-a343-4c45-9edc-0efefbc34afd-quote-3",
+        "e77ef241-8619-4e9c-947c-a2f3e96c8152",
+        "e3cf4bc3-ebe8-4ba6-a2f6-661c81cb451c",
+        "a37b82af-0a9d-4c16-a70f-fb597d5a8d7c",
+        "aea2a897-5bcf-41cd-86bf-1c06360ff4fd"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "@media only screen and (min-width: 600px) {::-webkit-scrollbar-thumb {background-color: #f4f4f2 !important; }}",
+        "h2.kicker-flourished.mb-7 {font-size: 2em; letter-spacing: 3px; font-weight: 100 !important;}",
+        ".blockquote cite {margin-top: -20px;}"
+      ],
+      "settings": {
+        "title": "TESTIMONIALS"
+      }
+    },
+    "020c8448-144d-4655-ba04-2b5c44ae5099": {
+      "type": "section-list-collections-products",
+      "blocks": {
+        "template--15914956718137__020c8448-144d-4655-ba04-2b5c44ae5099-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "all",
+            "title": "",
+            "link_text": "",
+            "enable_item": true,
+            "text": "VIEW ALL",
+            "background_color": "#fcfaf7",
+            "text_color": "text--neutral",
+            "link_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--15914956718137__020c8448-144d-4655-ba04-2b5c44ae5099-collection-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "grid": 5,
+        "rows": 1,
+        "enable_scroll_mobile": true,
+        "grid_small": 1.2,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "1700084937cbff1fed": {
+      "type": "apps",
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "170666243794fc6a03": {
+      "type": "apps",
+      "blocks": {
+        "maestrooo_section_feed_app_block_iThirr": {
+          "type": "shopify:\/\/apps\/maestrooo-section-feed\/blocks\/app-block\/43cd482b-515a-4e82-b170-05d391763cd2",
+          "settings": {
+            "title": "Instagram feed",
+            "subheading": "<p>Write content about your brand<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "layout": "grid",
+            "image_size": "small",
+            "add_spacing": true,
+            "rows_count": 2,
+            "show_author": false,
+            "show_caption": true,
+            "show_date": true,
+            "click_action": "open_instagram",
+            "heading_color": "#000000",
+            "subheading_color": "#000000",
+            "button_background": "#000000",
+            "button_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_text_color": "#ffffff",
+            "overlay_opacity": 65
+          }
+        }
+      },
+      "block_order": [
+        "maestrooo_section_feed_app_block_iThirr"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "a64c0602-8f76-4684-a1c1-5a5309b710bb",
+    "section_video_RiaQBN",
+    "7f4887fa-85a8-4f9a-b0e9-875e9e65a569",
+    "16f582bc-e0cd-4f91-b5ed-bb0e89d995e1",
+    "9889bf9a-ac42-4c91-a2ac-88177c589f39",
+    "2d72a8fc-b91b-4e75-b6d4-3f72e4663d88",
+    "31291fb7-7a00-4e0d-915f-4ab08b56bfd4",
+    "fd198fb0-16b2-4ce4-b0f8-4882e7e6978c",
+    "1a18540b-f57a-4072-87df-6fc61fdf9fe6",
+    "6417d1f6-306d-4a61-a61d-1bff54a34aa3",
+    "39effaf9-e71a-424d-8967-9e5b4b23f77e",
+    "0ed707c0-9a8c-4337-9e63-54e771bfd609",
+    "8e43faaa-b22a-4b3e-8727-4fce8c4d4678",
+    "bcd83b77-96df-4970-aa6c-ace6c72b8b75",
+    "f4209bc7-8d0f-4870-b44d-6bff2013abaa",
+    "10056f86-a47f-4b47-accb-4e940fa866be",
+    "bf145752-4145-4b7e-bb8d-de9f73cdb649",
+    "16897189979c127eb9",
+    "1689795010f3c58685",
+    "bc01aab7-a343-4c45-9edc-0efefbc34afd",
+    "020c8448-144d-4655-ba04-2b5c44ae5099",
+    "1700084937cbff1fed",
+    "170666243794fc6a03"
+  ]
+}

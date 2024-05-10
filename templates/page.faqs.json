@@ -1,0 +1,642 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "18294270-45a2-4a80-b785-d6b7db7fc242": {
+      "type": "section-hero",
+      "blocks": {
+        "template--15897219629113__18294270-45a2-4a80-b785-d6b7db7fc242-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "FREQUENTLY ASKED QUESTIONS",
+            "text_size": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219629113__18294270-45a2-4a80-b785-d6b7db7fc242-heading-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/preguntas_frecuentes.png",
+        "height": "use_screen_one_third",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "de5be26c-dd2f-4c79-b63b-105996c56968": {
+      "type": "section-gallery-text",
+      "blocks": {
+        "template--15897219629113__de5be26c-dd2f-4c79-b63b-105996c56968-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "title_size": 3,
+            "text": "<h5><a href=\"#section.template--15897219629113__5d1717fd-2a36-4789-a982-0331caffd484.block.template--15897219629113__5d1717fd-2a36-4789-a982-0331caffd484-heading-1.heading\" title=\"#section.template--15897219629113__5d1717fd-2a36-4789-a982-0331caffd484.block.template--15897219629113__5d1717fd-2a36-4789-a982-0331caffd484-heading-1.heading\">MY ACCOUNT<\/a><\/h5>",
+            "body_size": 4,
+            "text_align": "text-center"
+          }
+        },
+        "d140df5e-5f09-43f9-b81e-ca9535a785a7": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "title_size": 3,
+            "text": "<h5><a href=\"https:\/\/.standard__heading.heading-size-8.aos-init.aos-animate\" title=\"https:\/\/.standard__heading.heading-size-8.aos-init.aos-animate\">MY ACCOUNT<\/a><\/h5>",
+            "body_size": 4,
+            "text_align": "text-center"
+          }
+        },
+        "b60a3e4e-679f-4d05-ae5b-aac0ff5d03c3": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "title_size": 3,
+            "text": "<h5><a href=\"https:\/\/.standard__heading.heading-size-8.aos-init.aos-animate\" title=\"https:\/\/.standard__heading.heading-size-8.aos-init.aos-animate\">MY ACCOUNT<\/a><\/h5>",
+            "body_size": 4,
+            "text_align": "text-center"
+          }
+        },
+        "384733cb-6e8c-4b78-b929-c08db0fa438e": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "title_size": 3,
+            "text": "<h5><a href=\"https:\/\/.standard__heading.heading-size-8.aos-init.aos-animate\" title=\"https:\/\/.standard__heading.heading-size-8.aos-init.aos-animate\">MY ACCOUNT<\/a><\/h5>",
+            "body_size": 4,
+            "text_align": "text-center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219629113__de5be26c-dd2f-4c79-b63b-105996c56968-text-1",
+        "d140df5e-5f09-43f9-b81e-ca9535a785a7",
+        "b60a3e4e-679f-4d05-ae5b-aac0ff5d03c3",
+        "384733cb-6e8c-4b78-b929-c08db0fa438e"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".rte a:not([class]) {text-decoration: none; font-family: \"Harmonia Sans\"; letter-spacing: 3px;}"
+      ],
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "grid_large": 4,
+        "grid_medium": 1,
+        "grid_mobile": 1,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "5d1717fd-2a36-4789-a982-0331caffd484": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--15897219629113__5d1717fd-2a36-4789-a982-0331caffd484-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "MI CUENTA",
+            "text_size": 6
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219629113__5d1717fd-2a36-4789-a982-0331caffd484-heading-1"
+      ],
+      "custom_css": [
+        ".hero__title,.text__standard.text-center p {font-family: var(--TYPE-STACK-NAV) !important; letter-spacing: 3px; font-weight: 100 !important; text-transform: uppercase;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 120,
+        "padding_bottom": 36
+      }
+    },
+    "12a2b2f4-1a70-464a-874e-6c4edf773448": {
+      "type": "section-faq",
+      "blocks": {
+        "template--15897219629113__12a2b2f4-1a70-464a-874e-6c4edf773448-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "¿Cómo me registro para obtener una cuenta en línea?",
+            "content": "<p>En nuestra web <a href=\"http:\/\/myswellness.com\/\">myswellness.com<\/a>, debes hacer <a href=\"https:\/\/myswellness.com\/account\/login?return_url=%2Faccount\">clic aquí <\/a>para crear tu cuenta en línea.<\/p>"
+          }
+        },
+        "template--15897219629113__12a2b2f4-1a70-464a-874e-6c4edf773448-text-2": {
+          "type": "text",
+          "settings": {
+            "title": "¿Cómo uso un código de descuento activo?",
+            "content": "<p>Si tienes un código de descuento puedes aplicarlo a tu pedido en línea al finalizar tu compra, en el campo \"Código de descuento\". Los códigos de descuento distinguen entre mayúsculas y minúsculas, así que asegúrate de ingresarlo exactamente como lo recibiste.<br\/>Nota: Los códigos de descuento solo se aplican a artículos regulares a precio completo, quedando excluidas las colaboraciones de edición limitada, tarjetas de regalo y artículos en oferta. No se pueden combinar con otros códigos u ofertas.<\/p>"
+          }
+        },
+        "template--15897219629113__12a2b2f4-1a70-464a-874e-6c4edf773448-text-3": {
+          "type": "text",
+          "settings": {
+            "title": "¿Cómo puedo actualizar mi pedido?",
+            "content": "<p>Envíanos un correo electrónico a info@myswellness.com lo antes posible si deseas cancelar o cambiar su pedido. Nuestro centro logístico procesa pedidos rápidamente, pero haremos todo lo posible para procesar tu solicitud. También puedes comunicarte con nosotros vía telefónica al +52 1 55 6416 4386.<\/p>"
+          }
+        },
+        "360f6ac5-77b3-42ac-b0cc-24699a83df4c": {
+          "type": "text",
+          "settings": {
+            "title": "¿Cómo puedo consultar el estado de mi pedido?",
+            "content": "<p>Después de realizar un pedido, recibirás una confirmación del pedido y un correo electrónico de confirmación de envío.<\/p>"
+          }
+        },
+        "c2a6f92c-a514-40e4-9947-43b8715d5f6f": {
+          "type": "text",
+          "settings": {
+            "title": "¿Puedo cancelar mi pedido?",
+            "content": "<p>Envía un correo electrónico a <strong>info@myswellness.com<\/strong> lo antes posible y haremos todo lo posible para atender tu solicitud.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219629113__12a2b2f4-1a70-464a-874e-6c4edf773448-text-1",
+        "template--15897219629113__12a2b2f4-1a70-464a-874e-6c4edf773448-text-2",
+        "template--15897219629113__12a2b2f4-1a70-464a-874e-6c4edf773448-text-3",
+        "360f6ac5-77b3-42ac-b0cc-24699a83df4c",
+        "c2a6f92c-a514-40e4-9947-43b8715d5f6f"
+      ],
+      "settings": {
+        "title": "",
+        "title_align": "text-left",
+        "title_size": 4,
+        "heading_size": 5,
+        "text_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "7b0c370e-1243-4be7-882a-feb8d6097455": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--15897219629113__7b0c370e-1243-4be7-882a-feb8d6097455-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "PAGOS",
+            "text_size": 6
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219629113__7b0c370e-1243-4be7-882a-feb8d6097455-heading-1"
+      ],
+      "custom_css": [
+        ".hero__title,.text__standard.text-center p {font-family: var(--TYPE-STACK-NAV) !important; letter-spacing: 3px; font-weight: 100 !important; text-transform: uppercase;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d1141a71-999c-4624-bc45-5574c8a6c896": {
+      "type": "section-faq",
+      "blocks": {
+        "template--15897219629113__d1141a71-999c-4624-bc45-5574c8a6c896-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "¿Qué métodos de pago aceptan?",
+            "content": "<p>Actualmente, aceptamos tarjetas de crédito\/débito Visa y MasterCard, American Express y PayPal (solo en MX)<\/p>"
+          }
+        },
+        "template--15897219629113__d1141a71-999c-4624-bc45-5574c8a6c896-text-2": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer fraud protection? ",
+            "content": "<p>All payment forms are subject to verification and review by MYS. MYS reserves the right to refuse to process any transaction, sale, or shipment of orders due to suspected fraud or unauthorized \/ illegal activity.<\/p>"
+          }
+        },
+        "template--15897219629113__d1141a71-999c-4624-bc45-5574c8a6c896-text-3": {
+          "type": "text",
+          "settings": {
+            "title": "What currency is the site in? ",
+            "content": "<p>For Mexican customers, orders shipping in Mexico will be charged in Mexican Pesos. Orders shipping in the USA will be charged in US dollars. <\/p><p>For International customers, payment is collected in the currency selected when you begin your transaction. This is calculated on a US dollar base amount. For the purposes of international shipping paperwork, the base amount declared on the commercial invoice will be indicated in US Dollars.<\/p>"
+          }
+        },
+        "7d0e50f8-7dd9-4191-8e60-efb93af3e9bc": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked How is sales tax calculated?",
+            "content": "<p>We charge taxes according to Federal, Provincial\/State and Local government guidelines, based on the shipping address you provide when you place an online order.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219629113__d1141a71-999c-4624-bc45-5574c8a6c896-text-1",
+        "template--15897219629113__d1141a71-999c-4624-bc45-5574c8a6c896-text-2",
+        "template--15897219629113__d1141a71-999c-4624-bc45-5574c8a6c896-text-3",
+        "7d0e50f8-7dd9-4191-8e60-efb93af3e9bc"
+      ],
+      "settings": {
+        "title": "",
+        "title_align": "text-left",
+        "title_size": 4,
+        "heading_size": 5,
+        "text_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "a2fcd49e-fd46-4393-a228-df524023aa94": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--15897219629113__a2fcd49e-fd46-4393-a228-df524023aa94-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "GIFTCARDS",
+            "text_size": 6
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219629113__a2fcd49e-fd46-4393-a228-df524023aa94-heading-1"
+      ],
+      "custom_css": [
+        ".hero__title,.text__standard.text-center p {font-family: var(--TYPE-STACK-NAV) !important; letter-spacing: 3px; font-weight: 100 !important; text-transform: uppercase;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "05ab0e83-c7b1-4b98-b121-aaeabce1f90b": {
+      "type": "section-faq",
+      "blocks": {
+        "template--15897219629113__05ab0e83-c7b1-4b98-b121-aaeabce1f90b-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "Where do I purchase gift cards?",
+            "content": "<p>You can purchase a MYS gift card at Bomboti, scape.mx or online here.<\/p>"
+          }
+        },
+        "template--15897219629113__05ab0e83-c7b1-4b98-b121-aaeabce1f90b-text-2": {
+          "type": "text",
+          "settings": {
+            "title": "How do I apply a gift card to my order?",
+            "content": "<p>Your gift card can be added to the \"Promotional Code\" field in your cart.<\/p>"
+          }
+        },
+        "template--15897219629113__05ab0e83-c7b1-4b98-b121-aaeabce1f90b-text-3": {
+          "type": "text",
+          "settings": {
+            "title": "How do I redeem physical gift cards?",
+            "content": "<p>You can redeem a physical gift card at Bomboti, scape.mx or online. To redeem in store, simply present your gift card to a Bomboti team member when paying for your MYS products. To redeem online, add your MYS products to your shopping bag and add the \"Promotional Code\" field in your cart.<\/p>"
+          }
+        },
+        "8266936a-e49e-407e-8fbc-ffb3cc9f2620": {
+          "type": "text",
+          "settings": {
+            "title": "Can I return a gift card? ",
+            "content": "<p>Sorry, gift cards cannot be refunded or exchanged for cash unless required under applicable law.<\/p>"
+          }
+        },
+        "ddcca57a-48dc-4bf2-869b-7d14ec070120": {
+          "type": "text",
+          "settings": {
+            "title": "I lost my gift card, can you replace it?",
+            "content": "<p>All gift cards are not replaceable if lost, stolen, or damaged. Please note that we are unable to reissue gift cards or e-gift cards that have been lost or stolen.<\/p>"
+          }
+        },
+        "26480ffe-a42a-4351-af7c-4172b7709f96": {
+          "type": "text",
+          "settings": {
+            "title": "I can’t find the e-gift card sent to my email anymore, can you resend it?",
+            "content": "<p>Gift cards can sometimes end up in your email’s junk\/spam folder. Please be sure to check all folders in your email account. If you’re still having trouble locating the card, please contact our Customer Experience team at info@myswellness.com or by phone at +52 1 55 6416 4386 All gift cards are not replaceable if lost, stolen, or damaged. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219629113__05ab0e83-c7b1-4b98-b121-aaeabce1f90b-text-1",
+        "template--15897219629113__05ab0e83-c7b1-4b98-b121-aaeabce1f90b-text-2",
+        "template--15897219629113__05ab0e83-c7b1-4b98-b121-aaeabce1f90b-text-3",
+        "8266936a-e49e-407e-8fbc-ffb3cc9f2620",
+        "ddcca57a-48dc-4bf2-869b-7d14ec070120",
+        "26480ffe-a42a-4351-af7c-4172b7709f96"
+      ],
+      "settings": {
+        "title": "",
+        "title_align": "text-left",
+        "title_size": 4,
+        "heading_size": 5,
+        "text_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 120
+      }
+    },
+    "253daadc-54f8-4980-8350-0131bc1719ef": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--15897219629113__253daadc-54f8-4980-8350-0131bc1719ef-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "PRODUCTS",
+            "text_size": 6
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219629113__253daadc-54f8-4980-8350-0131bc1719ef-heading-1"
+      ],
+      "custom_css": [
+        ".hero__title,.text__standard.text-center p {font-family: var(--TYPE-STACK-NAV) !important; letter-spacing: 3px; font-weight: 100 !important; text-transform: uppercase;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "fe8584f5-e2a0-415f-b927-6b92a81a3430": {
+      "type": "section-faq",
+      "blocks": {
+        "template--15897219629113__fe8584f5-e2a0-415f-b927-6b92a81a3430-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "Do you test your products on animals? ",
+            "content": "<p>We never have – and never will – test any MYS products on animals.<\/p>"
+          }
+        },
+        "template--15897219629113__fe8584f5-e2a0-415f-b927-6b92a81a3430-text-2": {
+          "type": "text",
+          "settings": {
+            "title": "How long will your products last?",
+            "content": "<p>Our products have been formulated to have a one year shelf life and all of our skin care products have a PAO (period after opening date) printed on our packaging.<\/p>"
+          }
+        },
+        "template--15897219629113__fe8584f5-e2a0-415f-b927-6b92a81a3430-text-3": {
+          "type": "text",
+          "settings": {
+            "title": "What is your stance on recycled products?",
+            "content": "<p>We strive to use sustainable, recycled, and biodegradable materials whenever possible. Both our primary and secondary packaging can be recycled and we have partnered with a warehouse that joins us in our sustainability efforts.<\/p>"
+          }
+        },
+        "003e3d54-9d6f-4e68-b395-815331b3b6ae": {
+          "type": "text",
+          "settings": {
+            "title": "I have sensitive skin. Can I use your products?",
+            "content": "<p>Our products have been dermatologist tested and approved for all skin types including sensitive skin; however, all skin reacts differently. Our products feature natural, essential oils, plant extracts and botanical complexes and we use natural preservatives. We suggest that you always test any product on a small area first prior to use.<\/p>"
+          }
+        },
+        "e32fe060-b4ac-4160-9fd9-ccb797c809d0": {
+          "type": "text",
+          "settings": {
+            "title": "Can MYS products while pregnant?",
+            "content": "<p>Our best suggestion is always to speak with your trusted healthcare practitioner prior to introducing any essential oil-based products during your pregnancy.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219629113__fe8584f5-e2a0-415f-b927-6b92a81a3430-text-1",
+        "template--15897219629113__fe8584f5-e2a0-415f-b927-6b92a81a3430-text-2",
+        "template--15897219629113__fe8584f5-e2a0-415f-b927-6b92a81a3430-text-3",
+        "003e3d54-9d6f-4e68-b395-815331b3b6ae",
+        "e32fe060-b4ac-4160-9fd9-ccb797c809d0"
+      ],
+      "settings": {
+        "title": "",
+        "title_align": "text-left",
+        "title_size": 4,
+        "heading_size": 5,
+        "text_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e176f7ae-800d-4ecc-a910-8d454a0024f2": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--15897219629113__e176f7ae-800d-4ecc-a910-8d454a0024f2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "GENERAL",
+            "text_size": 6
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219629113__e176f7ae-800d-4ecc-a910-8d454a0024f2-heading-1"
+      ],
+      "custom_css": [
+        ".hero__title,.text__standard.text-center p {font-family: var(--TYPE-STACK-NAV) !important; letter-spacing: 3px; font-weight: 100 !important; text-transform: uppercase;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "90ddd19b-7aad-43e1-8654-141dc086e2e5": {
+      "type": "section-faq",
+      "blocks": {
+        "template--15897219629113__90ddd19b-7aad-43e1-8654-141dc086e2e5-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "Who is the founder of MYS?",
+            "content": "<p>Mys is a Mexican brand with a Swedish  soul, the result of the creativity and  entrepreneurship of Helle Jeppsson,  the founder of Scape. <\/p>"
+          }
+        },
+        "template--15897219629113__90ddd19b-7aad-43e1-8654-141dc086e2e5-text-2": {
+          "type": "text",
+          "settings": {
+            "title": "Who created the aromas, packaging and branding of your brand?",
+            "content": "<p>For this new endeavor, Helle teamed up with Mexican talent who helped create a line of natural products of the highest quality, with a  great story and concept behind them. Izaskun Díaz, the first Mexican nose and founder of Izaskun Estudio Olfativo was in charge  of finding the perfect mix of aromas for the concepts that Helle wanted to convey in each collection. <\/p><p>On the other hand, the Mexican Architects Andrés Mier y Terán and  Regina Galvanduque from firm MYT+GLVDK, had the task of develo ping the brand's design, identity, branding, and merchandising. <\/p>"
+          }
+        },
+        "template--15897219629113__90ddd19b-7aad-43e1-8654-141dc086e2e5-text-3": {
+          "type": "text",
+          "settings": {
+            "title": "What is your brand’s philosophy?",
+            "content": "<p>Mys was born to materialize the Nordic experience of well-being, warmth, and coziness in a wide-ranging proposal of luxury wellness products and home goods, inspired by the pleasure and balance of  enjoying the little things in life, like a hot cup of coffee, a view of the  forest, a moment of stillness under a warm blanket, the peace of the sounds of nature.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219629113__90ddd19b-7aad-43e1-8654-141dc086e2e5-text-1",
+        "template--15897219629113__90ddd19b-7aad-43e1-8654-141dc086e2e5-text-2",
+        "template--15897219629113__90ddd19b-7aad-43e1-8654-141dc086e2e5-text-3"
+      ],
+      "settings": {
+        "title": "",
+        "title_align": "text-left",
+        "title_size": 4,
+        "heading_size": 5,
+        "text_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d487443f-dd53-4d11-b5fb-e74764becbe1": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--15897219629113__d487443f-dd53-4d11-b5fb-e74764becbe1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "CONTACT US",
+            "text_size": 6
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219629113__d487443f-dd53-4d11-b5fb-e74764becbe1-heading-1"
+      ],
+      "custom_css": [
+        ".hero__title,.text__standard.text-center p {font-family: var(--TYPE-STACK-NAV) !important; letter-spacing: 3px; font-weight: 100 !important; text-transform: uppercase;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "a1d116b2-6db5-410a-bd33-8b350f19b6a7": {
+      "type": "section-faq",
+      "blocks": {
+        "template--15897219629113__a1d116b2-6db5-410a-bd33-8b350f19b6a7-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "Who do I contact for press or social media inquiries?",
+            "content": "<p>For all press or social media related inquiries please email us at <strong>pr@scape.mx<\/strong><\/p>"
+          }
+        },
+        "template--15897219629113__a1d116b2-6db5-410a-bd33-8b350f19b6a7-text-2": {
+          "type": "text",
+          "settings": {
+            "title": "Who do I contact for sales inquiries?",
+            "content": "<p>For all sales inquiries please email us at <strong>pr@scape.mx<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219629113__a1d116b2-6db5-410a-bd33-8b350f19b6a7-text-1",
+        "template--15897219629113__a1d116b2-6db5-410a-bd33-8b350f19b6a7-text-2"
+      ],
+      "settings": {
+        "title": "",
+        "title_align": "text-left",
+        "title_size": 4,
+        "heading_size": 5,
+        "text_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "5a00a5c9-4908-468d-843b-55cc6ae174c1": {
+      "type": "productos",
+      "blocks": {
+        "template--15897219629113__5a00a5c9-4908-468d-843b-55cc6ae174c1-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "dry-body-oil",
+            "title": "BEST SELLERS",
+            "link_text": "",
+            "enable_item": true,
+            "text": "VIEW ALL COLLECTION",
+            "background_color": "rgba(0,0,0,0)",
+            "text_color": "text--neutral",
+            "link_size": 5
+          }
+        }
+      },
+      "block_order": [
+        "template--15897219629113__5a00a5c9-4908-468d-843b-55cc6ae174c1-collection-1"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "grid": 5,
+        "rows": 1,
+        "enable_scroll_mobile": true,
+        "grid_small": 1.2,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "18294270-45a2-4a80-b785-d6b7db7fc242",
+    "de5be26c-dd2f-4c79-b63b-105996c56968",
+    "5d1717fd-2a36-4789-a982-0331caffd484",
+    "12a2b2f4-1a70-464a-874e-6c4edf773448",
+    "7b0c370e-1243-4be7-882a-feb8d6097455",
+    "d1141a71-999c-4624-bc45-5574c8a6c896",
+    "a2fcd49e-fd46-4393-a228-df524023aa94",
+    "05ab0e83-c7b1-4b98-b121-aaeabce1f90b",
+    "253daadc-54f8-4980-8350-0131bc1719ef",
+    "fe8584f5-e2a0-415f-b927-6b92a81a3430",
+    "e176f7ae-800d-4ecc-a910-8d454a0024f2",
+    "90ddd19b-7aad-43e1-8654-141dc086e2e5",
+    "d487443f-dd53-4d11-b5fb-e74764becbe1",
+    "a1d116b2-6db5-410a-bd33-8b350f19b6a7",
+    "5a00a5c9-4908-468d-843b-55cc6ae174c1"
+  ]
+}

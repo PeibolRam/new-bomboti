@@ -1,0 +1,376 @@
+{
+  "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {
+      }
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "product",
+      "blocks": {
+        "ea76329a-47c1-44b9-b320-36d6413feab5": {
+          "type": "liquid",
+          "settings": {
+            "custom_liquid": "<br>"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "text_size": 7,
+            "product_show_cutline": true,
+            "show_rating": false,
+            "show_rating_count": false,
+            "padding_bottom": 20
+          }
+        },
+        "4610c522-d86d-4bb4-ab1c-65b1b7fdc14d": {
+          "type": "liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"producto_collection\">{{product.metafields.custom.product_collection}}\n<\/div>\n<br>\n<style>\n.producto_collection {\n    font-size: 2em;\n    margin-top: -1vw;\n    margin-bottom: -1vw;\n}\n<\/style>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": 5,
+            "padding_bottom": 0
+          }
+        },
+        "2846519d-1e1c-4200-a463-6ae1300fae7a": {
+          "type": "shopify:\/\/apps\/revie-reviews-por-whatsapp\/blocks\/app-block\/32a49769-cfbe-4f29-8b19-1ae20fdb2abe",
+          "settings": {
+            "star_color": "#9bae88",
+            "star_text_2": "reseñas",
+            "size": 13
+          }
+        },
+        "variants": {
+          "type": "variant-selectors",
+          "disabled": true,
+          "settings": {
+            "option_space": 30,
+            "padding_bottom": 30
+          }
+        },
+        "subscriptions": {
+          "type": "subscription",
+          "disabled": true,
+          "settings": {
+            "subscriptions_enable_selectors": true,
+            "padding_bottom": 20
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {
+            "show_quantity": true,
+            "padding_bottom": 20
+          }
+        },
+        "buttons": {
+          "type": "add-buttons",
+          "settings": {
+            "enable_payment_button": true,
+            "padding_bottom": 0
+          }
+        },
+        "d9dfb349-f482-4e7f-9f13-8e7c26447386": {
+          "type": "liquid",
+          "settings": {
+            "custom_liquid": "<br><br>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "style": "accordions",
+            "enable_description": true,
+            "read_more": true,
+            "icon_description": "",
+            "description_expanded": true,
+            "title_1": "Instrucciones",
+            "icon_name_1": "",
+            "raw_content_1": "<p>1. Busca un lugar estable y seguro para colocar la vela. Asegúrate de que esté lejos de objetos inflamables, corrientes de aire y fuera del alcance de niños y mascotas.<\/p><p>2. Retira la tapa protectora antes de encenderla.<\/p><p>3. Mantén la llama del fósforo o encendedor cerca de la mecha hasta que la vela se haya encendido por completo.<\/p><p>4. La primera vez que lo hagas déjala prendida hasta que toda la superficie se haya fundido. Esto creará una cama de fundido homogéneo que hará que se consuma de forma pareja y uniforme. <\/p><p>5. Nunca dejes una vela encendida sin supervisión. Apaga la vela si necesitas dejar la habitación o si te vas a dormir.<\/p><p>6. Nunca quemes tu vela hasta el final. Siempre deja por lo menos 5 mm en la base de la vela.<\/p>",
+            "title_2": "",
+            "icon_name_2": "",
+            "raw_content_2": "",
+            "title_3": "",
+            "icon_name_3": "",
+            "raw_content_3": "",
+            "title_4": "",
+            "icon_name_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "icon_name_5": "",
+            "raw_content_5": "",
+            "padding_bottom": 20
+          }
+        },
+        "cb27e750-fb06-49c2-8bcc-240467de5701": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Web-Banner-Ingredients-Spring.jpg",
+            "image_max_limit": 500,
+            "alignment": "product__block__image--center",
+            "padding_bottom": 36
+          }
+        },
+        "782fc883-07b2-4f5e-b3f8-c012701db5de": {
+          "type": "liquid",
+          "settings": {
+            "custom_liquid": "{% if product.metafields.custom.product_ingredients != blank %} <div style=\"display: flex;\n    justify-content: center;\n    align-items: flex-start;\n    flex-direction: column;\n    flex-wrap: nowrap;\"><p style=\"letter-spacing: 2px;\n    font-weight: 600; margin-bottom: 20px;\"> KEY INGREDIENTS<\/p><img class\"ingredientes\" src=\"{{ product.metafields.custom.product_ingredients | img_url: '1400x' }}\"><\/div>\n<style>\n.ingredientes {\ndispley: flex;\nalign: center;\nwidth: 50%;\nmargin: auto;\n}\n<\/style>\n\n{% endif %}"
+          }
+        },
+        "sharing": {
+          "type": "sharing",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share",
+            "target_device": "",
+            "padding_bottom": 20
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "upsell_type": "product_single",
+            "product": "difusor-electrico-fall-host",
+            "upsell_product_list": [
+              "difusor-electrico-summer-sommar",
+              "aceite-esencial-summer-sommar"
+            ],
+            "upsell_list_limit": 1,
+            "padding_bottom": 10
+          }
+        },
+        "5222f1ee-13d6-4e1e-b519-0633d7af5718": {
+          "type": "complimentary",
+          "disabled": true,
+          "settings": {
+            "title": "Bought together",
+            "complimentary_list_limit": 2,
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "ea76329a-47c1-44b9-b320-36d6413feab5",
+        "title",
+        "4610c522-d86d-4bb4-ab1c-65b1b7fdc14d",
+        "price",
+        "2846519d-1e1c-4200-a463-6ae1300fae7a",
+        "variants",
+        "subscriptions",
+        "quantity",
+        "buttons",
+        "d9dfb349-f482-4e7f-9f13-8e7c26447386",
+        "description",
+        "cb27e750-fb06-49c2-8bcc-240467de5701",
+        "782fc883-07b2-4f5e-b3f8-c012701db5de",
+        "sharing",
+        "upsell",
+        "5222f1ee-13d6-4e1e-b519-0633d7af5718"
+      ],
+      "settings": {
+        "layout": "none@single",
+        "image_width": "wide",
+        "image_spacing": 20,
+        "align": "left",
+        "product_breadcrumbs": true,
+        "bg": "palette--light bg--neutral",
+        "mobile_layout": "carousel",
+        "enable_video_looping": true,
+        "zoom_enable": true,
+        "alt_text_enable": true,
+        "alt_text_icon": "icon-ruler",
+        "width": "wrapper",
+        "padding_top": 24,
+        "padding_bottom": 26
+      }
+    },
+    "reviews": {
+      "type": "reviews",
+      "disabled": true,
+      "settings": {
+        "product_reviews_enable": true,
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related": {
+      "type": "related",
+      "settings": {
+        "heading": "",
+        "bg": "palette--light bg--neutral",
+        "grid_large": 4,
+        "grid_medium": 3,
+        "grid_small": 2,
+        "related_products_enable": true,
+        "limit": 6,
+        "product_recommendations_heading": "PRODUCTOS RELACIONADOS",
+        "show_recently_viewed": true,
+        "product_recently_limit": 6,
+        "product_recently_minimum": 4,
+        "product_recently_heading": "VISTO RECIENTEMENTE",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "168871481735e16d5e": {
+      "type": "apps",
+      "blocks": {
+        "e4289939-2b9c-41d2-8e93-595738ff1180": {
+          "type": "shopify:\/\/apps\/revie-reviews-por-whatsapp\/blocks\/app-block-2\/32a49769-cfbe-4f29-8b19-1ae20fdb2abe",
+          "settings": {
+            "title": "REVIEWS",
+            "format": "1",
+            "max_width": 900,
+            "content_padding": 22,
+            "star_color": "#9bae88",
+            "show_comment": "No",
+            "max_count": 10,
+            "star_text": "Estrellas",
+            "subtitle": "OPINIONES",
+            "buyer": "Comprador verificado",
+            "based": "Basado en",
+            "opinions": "opiniones",
+            "no_reviews": "SIN OPINIONES",
+            "show_summary": "No"
+          }
+        }
+      },
+      "block_order": [
+        "e4289939-2b9c-41d2-8e93-595738ff1180"
+      ],
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "2021c7d3-9977-4d83-88ac-467d4fae65da": {
+      "type": "section-list-collections",
+      "blocks": {
+        "template--15888697524281__2021c7d3-9977-4d83-88ac-467d4fae65da-1689013423a229287a-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "spring-var",
+            "image": "shopify:\/\/shop_images\/Spring_092863bd-a956-4c46-992f-34d724574928.png",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "text_color": "text--white"
+          }
+        },
+        "template--15888697524281__2021c7d3-9977-4d83-88ac-467d4fae65da-1689013423a229287a-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "summer-sommar",
+            "image": "shopify:\/\/shop_images\/Summer_a85fc9b9-033a-4e7f-a1a0-597e4abeeff1.png",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "text_color": "text--white"
+          }
+        },
+        "1d66ad71-0c9a-4f30-a9ca-d9b9fc6fc02e": {
+          "type": "collection",
+          "settings": {
+            "collection": "fall-host-1",
+            "image": "shopify:\/\/shop_images\/Fall_5806dc50-bbef-4da6-98a2-c5a94942c6d2.png",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "text_color": "text--white"
+          }
+        },
+        "74859475-2b46-4403-add8-9fe71e877b39": {
+          "type": "collection",
+          "settings": {
+            "collection": "winter-vinter",
+            "image": "shopify:\/\/shop_images\/Winter_7eccabfc-98b0-4f01-a7f8-a321e583fb87.png",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "text_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--15888697524281__2021c7d3-9977-4d83-88ac-467d4fae65da-1689013423a229287a-0",
+        "template--15888697524281__2021c7d3-9977-4d83-88ac-467d4fae65da-1689013423a229287a-1",
+        "1d66ad71-0c9a-4f30-a9ca-d9b9fc6fc02e",
+        "74859475-2b46-4403-add8-9fe71e877b39"
+      ],
+      "custom_css": [
+        "h2.kicker-flourished.mb-7 {font-size: 2em; font-weight: 200; letter-spacing: 3px;}",
+        "[data-grid]:not([data-grid-no-gutters]) [data-item] {padding: 10px 5px;}"
+      ],
+      "settings": {
+        "title": "COLECCIONES MYS",
+        "bg": "palette--light bg--neutral",
+        "enable_carousel": true,
+        "progress_bar": "mobile",
+        "wh_ratio": 0.7,
+        "grid_large": 4,
+        "grid_medium": 2,
+        "grid_mobile": 1.2,
+        "font_family": "body",
+        "title_size": 8,
+        "accent_size": 3,
+        "width": "wrapper--full",
+        "padding_top": 50,
+        "padding_bottom": 80
+      }
+    },
+    "shogun-below": {
+      "type": "shogun-below",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "shogun-helper",
+    "shogun-above",
+    "main",
+    "reviews",
+    "related",
+    "168871481735e16d5e",
+    "2021c7d3-9977-4d83-88ac-467d4fae65da",
+    "shogun-below"
+  ]
+}

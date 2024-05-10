@@ -1,0 +1,129 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "fda04d8f-d223-42b1-9083-f1a0b7a01834": {
+      "type": "section-video",
+      "blocks": {
+        "template--15902138335289__fda04d8f-d223-42b1-9083-f1a0b7a01834-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "PRESS",
+            "text_size": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--15902138335289__fda04d8f-d223-42b1-9083-f1a0b7a01834-heading-1"
+      ],
+      "settings": {
+        "height": "use_screen_one_third",
+        "color_bg": "palette--light bg--neutral",
+        "object_position": "center-center",
+        "preload_image": false,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16a9b000-d46c-40d4-8985-5c7683b36c92": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<br><br>"
+      }
+    },
+    "b19a4393-237c-43f7-bb22-cfe0e41a6b26": {
+      "type": "testimonials",
+      "blocks": {
+        "template--15902138335289__b19a4393-237c-43f7-bb22-cfe0e41a6b26-quote-1": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author’s name",
+            "link": ""
+          }
+        },
+        "template--15902138335289__b19a4393-237c-43f7-bb22-cfe0e41a6b26-quote-2": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author’s name",
+            "link": ""
+          }
+        },
+        "template--15902138335289__b19a4393-237c-43f7-bb22-cfe0e41a6b26-quote-3": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author’s name",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15902138335289__b19a4393-237c-43f7-bb22-cfe0e41a6b26-quote-1",
+        "template--15902138335289__b19a4393-237c-43f7-bb22-cfe0e41a6b26-quote-2",
+        "template--15902138335289__b19a4393-237c-43f7-bb22-cfe0e41a6b26-quote-3"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 600px) {::-webkit-scrollbar-thumb {background-color: #f4f4f2 !important; }}",
+        "h2.kicker-flourished.mb-7 {font-size: 2em; letter-spacing: 3px; font-weight: 100 !important;}"
+      ],
+      "settings": {
+        "title": "TESTIMONIALS"
+      }
+    },
+    "25283195-dbbc-4fde-9b92-ce1582b3bd4e": {
+      "type": "section-blog",
+      "settings": {
+        "title": "",
+        "homepage_blog": "press",
+        "homepage_blog_count": 6,
+        "progress_bar": "mobile",
+        "grid_large": 3,
+        "grid_medium": 2,
+        "grid_mobile": 1.2,
+        "wh_ratio": 1.7,
+        "show_author": true,
+        "show_tags": true,
+        "show_date": true,
+        "show_preview": false,
+        "show_link": false,
+        "bg": "palette--light bg--neutral",
+        "color": "text--white",
+        "show_view_all": false,
+        "button_style": "btn--outline",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "fda04d8f-d223-42b1-9083-f1a0b7a01834",
+    "16a9b000-d46c-40d4-8985-5c7683b36c92",
+    "b19a4393-237c-43f7-bb22-cfe0e41a6b26",
+    "25283195-dbbc-4fde-9b92-ce1582b3bd4e"
+  ]
+}

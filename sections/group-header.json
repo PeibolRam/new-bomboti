@@ -1,0 +1,250 @@
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "announce_text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Envíos mismo día<\/strong> en compras antes de las 12:00 pm. Solo CDMX. 1-5 días al resto de la república<\/p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "4421a3ee-109a-4084-bd30-4ca9d26a7eb4": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>Make an announcement<\/strong> | More info<\/p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "db44fabd-ee24-41fb-8119-8f07a06a5931": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>The <strong>nordic <\/strong>experience<\/p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "announce_text",
+        "4421a3ee-109a-4084-bd30-4ca9d26a7eb4",
+        "db44fabd-ee24-41fb-8119-8f07a06a5931"
+      ],
+      "custom_css": [
+        "p {letter-spacing: 2px; font-weight: thin; text-transform: uppercase;}"
+      ],
+      "settings": {
+        "text_size": 2,
+        "layout": "slider",
+        "speed": 5,
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "header-block-toolbar": {
+          "type": "toolbar",
+          "disabled": true,
+          "settings": {
+            "announcement_text": "<p>This is announcement <em><strong>richtext<\/strong><\/em> from an announcement block<\/p>",
+            "secondary_linklist": "",
+            "show_menu_desktop": true,
+            "show_menu_mobile": true,
+            "show_locale_desktop": true,
+            "show_locale_mobile": true,
+            "show_currency_desktop": true,
+            "show_currency_mobile": true
+          }
+        },
+        "header-block-image-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "position": "2",
+            "wh_ratio": 0,
+            "image": "shopify:\/\/shop_images\/MYS_1732_99cdd3e3-83f7-42ed-96dc-96f0504365a5.jpg",
+            "wide_element": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "Be Natural",
+            "title_color": "text--white",
+            "button_style": "is-on-image",
+            "link_text": "Shop All",
+            "link": "shopify:\/\/collections\/all",
+            "button_color": "btn--neutral",
+            "display": "all"
+          }
+        },
+        "4e273fc6-fef8-49d4-95c0-e300e315fa5c": {
+          "type": "product",
+          "settings": {
+            "position": "2",
+            "wide_element": false,
+            "product": "aceite-esencial-kit-4-pz",
+            "display": "all"
+          }
+        },
+        "806958a0-8e46-44b5-87c8-32d8f68cb990": {
+          "type": "product",
+          "settings": {
+            "position": "2",
+            "wide_element": false,
+            "product": "vela-marmoleada-fall-host",
+            "display": "all"
+          }
+        },
+        "55152f95-12fa-4e30-85c0-7ad1ef1ed4cf": {
+          "type": "product",
+          "settings": {
+            "position": "2",
+            "wide_element": false,
+            "product": "aceite-corporal-seco-vinter-winter",
+            "display": "all"
+          }
+        },
+        "0bae6767-91bc-480c-be45-1aeded30e591": {
+          "type": "product",
+          "settings": {
+            "position": "2",
+            "wide_element": false,
+            "product": "crema-de-manos-fall-host",
+            "display": "all"
+          }
+        },
+        "331ff998-beb3-48ae-8781-0e576c420794": {
+          "type": "image",
+          "settings": {
+            "position": "3",
+            "wh_ratio": 0.8,
+            "image": "shopify:\/\/shop_images\/MYS_spring_73db2f87-3f38-4269-9b19-52dca6e5af0d.jpg",
+            "wide_element": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "title_color": "text--white",
+            "button_style": "is-below-image",
+            "link_text": "SPRING  · VÅR",
+            "link": "shopify:\/\/collections\/spring-var",
+            "button_color": "btn--neutral",
+            "display": "all"
+          }
+        },
+        "c5b05cf2-b165-4e41-8081-bb39955c8b48": {
+          "type": "image",
+          "settings": {
+            "position": "3",
+            "wh_ratio": 0.8,
+            "image": "shopify:\/\/shop_images\/MYS_summer_bda815be-e4f1-47d9-8432-d5cdc7534526.jpg",
+            "wide_element": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "title_color": "text--white",
+            "button_style": "is-below-image",
+            "link_text": "SUMMER · SOMMAR",
+            "link": "shopify:\/\/collections\/summer-sommar",
+            "button_color": "btn--neutral",
+            "display": "all"
+          }
+        },
+        "db6d1cb1-8b6a-4122-b322-ac149e60387d": {
+          "type": "image",
+          "settings": {
+            "position": "3",
+            "wh_ratio": 0.8,
+            "image": "shopify:\/\/shop_images\/MYS_fall.jpg",
+            "wide_element": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "title_color": "text--white",
+            "button_style": "is-below-image",
+            "link_text": "FALL · HØST",
+            "link": "shopify:\/\/collections\/fall-host-1",
+            "button_color": "btn--neutral",
+            "display": "all"
+          }
+        },
+        "3f600a9a-5056-44d2-9aa6-165504a1f1c1": {
+          "type": "image",
+          "settings": {
+            "position": "3",
+            "wh_ratio": 0.8,
+            "image": "shopify:\/\/shop_images\/MYS_winter_48fb5b57-a817-4da7-b5fc-4dcb82ddba03.jpg",
+            "wide_element": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "title_color": "text--white",
+            "button_style": "is-below-image",
+            "link_text": "WINTER · VINTER",
+            "link": "shopify:\/\/collections\/winter-vinter",
+            "button_color": "btn--neutral",
+            "display": "all"
+          }
+        }
+      },
+      "block_order": [
+        "header-block-toolbar",
+        "header-block-image-1",
+        "4e273fc6-fef8-49d4-95c0-e300e315fa5c",
+        "806958a0-8e46-44b5-87c8-32d8f68cb990",
+        "55152f95-12fa-4e30-85c0-7ad1ef1ed4cf",
+        "0bae6767-91bc-480c-be45-1aeded30e591",
+        "331ff998-beb3-48ae-8781-0e576c420794",
+        "c5b05cf2-b165-4e41-8081-bb39955c8b48",
+        "db6d1cb1-8b6a-4122-b322-ac149e60387d",
+        "3f600a9a-5056-44d2-9aa6-165504a1f1c1"
+      ],
+      "settings": {
+        "header_style": "logo_center",
+        "logo": "shopify:\/\/shop_images\/logo_mys_2.png",
+        "logo_max_limit": 80,
+        "logo_padding": 6,
+        "logo_text_size": 5,
+        "main_menu_linklist": "main-menu-2",
+        "mobile_menu_linklist": "menu-mobile",
+        "full_width": true,
+        "underline_current": false,
+        "enable_search": true,
+        "enable_account": true,
+        "use_icons": true,
+        "header_sticky": "sticky",
+        "transparent_home": true,
+        "transparent_collection": true,
+        "transparent_blog": true,
+        "transparent_article": true,
+        "transparent_page": true,
+        "transparent_text_color": "#f7f5f4",
+        "transparent_logo": "shopify:\/\/shop_images\/logo_mys.png",
+        "show_collection_images": false,
+        "collection_wh_ratio": 0.5
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "header"
+  ]
+}
